@@ -1,6 +1,7 @@
 ---
 title: Our Team
 layout: 'page'
+permalink: '/team/'
 description: ''
 keywords: []
 className: ''
