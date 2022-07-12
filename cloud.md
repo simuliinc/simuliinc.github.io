@@ -1,5 +1,5 @@
 ---
-title: Cloud Services
+title: Cloud
 layout: 'page'
 permalink: '/cloud/'
 description: ''
