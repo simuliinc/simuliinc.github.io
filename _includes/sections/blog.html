@@ -1,0 +1,40 @@
+<div class="blog-area de-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-8 offset-xl-2">
+				<div class="site-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+					<span class="about-sub-title">{{ site.blog.title }}</span>
+					<h2 class="about-title mb-0">{{ site.blog.intro }}</h2>
+				</div>
+			</div>
+		</div>
+		<div class="blog-wpr grid-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+
+			{%- for post in site.posts limit: 3-%}
+			<div class="blog-box">
+				<div class="blog-pic">
+					<img src="{{post.image | relative_url }}" alt="thumb">
+				</div>
+				<div class="blog-info">
+					<ul class="blog-meta">
+						<li>
+							<i class="icofont-user-alt-4"></i> {{post.author | default: "Admin"}}
+						</li>
+						<li>
+							<i class="icofont-clock-time"></i> {{ post.date | date_to_string }}
+						</li>
+					</ul>
+					<a href="{{post.url}}">
+						<h5 class="blog-title">
+							{{post.title }}
+						</h5>
+					</a>
+					<a href="{{post.url}}" class="btn-4 hv">
+						<i class="icofont-arrow-right"></i>
+					</a>
+				</div>
+			</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</div>

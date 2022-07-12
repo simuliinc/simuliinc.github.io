@@ -1,0 +1,49 @@
+<header class="header">
+	<div class="main-navigation">
+		<div class="navbar navbar-expand-lg bsnav bsnav-sticky bsnav-sticky-slide bsnav-transparent">
+			<div class="container">
+				<a class="navbar-brand" href="{{ '/' | relative_url }}">
+					<img src="{{ site.logo | relative_url }}" style="width: unset; max-width: 25%;" class="logo-display" alt="Simuli">
+					<img src="{{ site.logo | relative_url  }}" style="width: unset; max-width: 25%;" class="logo-scrolled" alt="Simuli">
+				</a>
+				<button class="navbar-toggler toggler-spring">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-sm-end">
+					<ul class="navbar-nav navbar-mobile ml-auto">
+						{%- for nav in site.menus -%}
+						<li class="nav-item dropdown fadeup">
+							<a class="nav-link" href="{{nav.url}}">
+								{{nav.name}} {%- if nav.children -%}<i class="caret ti-plus"></i> {%- endif -%}
+							</a>
+							{%- if nav.children -%}
+							<ul class="navbar-nav">
+								{%- for children in nav.children -%}
+								<li class="nav-item">
+									<a class="nav-link" href="{{children.url}}">
+										{{children.name}}
+									</a>
+								</li>
+								{%- endfor -%}
+							</ul>
+							{%- endif -%}
+
+						</li>
+						{%- endfor -%}
+
+					</ul>
+					<div class="header-serarch-btn">
+						<a href="/contact/" class="btn-2">
+							Contact Us
+							<i class="icofont-long-arrow-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bsnav-mobile">
+			<div class="bsnav-mobile-overlay"></div>
+			<div class="navbar"></div>
+		</div>
+	</div>
+</header>

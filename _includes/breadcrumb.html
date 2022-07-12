@@ -1,0 +1,9 @@
+<div class="site-breadcrumb" style="background: url('{{ 'assets/img/breadcrumb/breadcrumb.png' | relative_url }}')">
+	<div class="container wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+		<h2 class="breadcrumb-title">{{ page.title | default: site.title }}</h2>
+		<ul class="breadcrumb-menu clearfix">
+			<li><a href="{{'/' | relative_url }}">Home</a></li>
+			<li class="active">{{ page.title | truncatewords: 2 , "" }}</li>
+		</ul>
+	</div>
+</div>

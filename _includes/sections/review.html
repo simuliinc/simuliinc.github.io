@@ -1,0 +1,42 @@
+<div class="review-area de-pb">
+	<div class="container">
+		<div class="swiper-container review-wpr">
+			<div class="swiper-wrapper">
+
+
+
+				{%- for reviews in site.reviews -%}
+
+				<div class="swiper-slide">
+					<div class="review-single text-center">
+						<div class="row">
+							<div class="col-xl-8 offset-xl-2">
+								<div class="review-content">
+									<p>{{ reviews.quotes }}</p>
+									<div class="review-bio">
+										<h5>{{ reviews.author }}</h5>
+										<span>{{ reviews.status }}</span>
+										<div class="review-rating d-flex align-items-center">
+											<i class="icofont-star"></i>
+											<i class="icofont-star"></i>
+											<i class="icofont-star"></i>
+											<i class="icofont-star"></i>
+											<i class="icofont-star"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				{%- endfor -%}
+
+
+			</div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div>
+	</div>
+</div>

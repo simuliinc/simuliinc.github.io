@@ -1,0 +1,36 @@
+<div class="about-area de-padding">
+	<div class="about-wpr grid-2">
+		<div class="about-left">
+			<div class="about-img wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
+				<img src="{{ site.about.image | relative_url }}" alt="thumb">
+			</div>
+		</div>
+		<div class="about-right about-padding-right">
+			<span class="about-sub-title">{{ site.about.title }}</span>
+			<h2 data-splitting class="about-title wow" data-wow-duration=".1s" data-wow-delay=".2s">{{
+				site.about.subtitle }}
+			</h2>
+			<p>{{ site.about.description }}</p>
+			<div class="about-fact grid-3">
+
+				{%- for facts in site.facts -%}
+
+				<div class="fun-fact wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+					<div class="fun-icon">
+						<img src="{{ facts.image | relative_url }}" alt="thumb">
+						<p class="timer" data-to="{{ facts.counter }}" data-speed="3000">{{ facts.counter }}</p>
+					</div>
+					<div class="fun-desc">
+						<span class="medium">{{ facts.title }}</span>
+					</div>
+				</div>
+
+				{%- endfor -%}
+
+			</div>
+			<div class="about-btn mt-60 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+				<a href="{{ site.hero1.title_link }}" class="theme-btn">{{ site.hero1.title_text }}</a>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,674 @@
+
+####################################
+######     Global start     ######
+####################################
+name                : 'Simuli'
+title               : 'Simuli Inc.'
+email               : 'info@simuli.ai'
+address             : ''
+phone               : # 015610001234
+description         : An advanced computing company innovating low power, resource efficient, intelligent hardware for hyperscale computing and AGI. # >- means to ignore newlines until "baseurl:"
+baseurl             : "" # the subpath of your site, e.g. /blog
+url                 : "https://www.simuli.ai/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+locale              : "en_US"
+logo                : assets/img/logo/simuli_logoBW.svg
+logo2               : assets/img/logo/simuli_logoBW.svg
+
+author:
+  name:
+
+# paginate
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:slug/
+  pages:
+    output: true
+    permalink: /:collection/:slug/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+  # _pages
+  - scope:
+      path: "" # we can not defile path /blog/index.html for pagination
+      type: pages
+    values:
+      layout: page
+
+
+timezone: America/New_York  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+#
+
+disqus_shortname: # E.g., anvodstudio-demo
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-archives
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-archives
+
+# jekyll archive
+jekyll-archives:
+  enabled:
+    - tags
+    - categories
+  layouts:
+    category: category-archive
+    tag: tag-archive
+  permalinks:
+    tag: '/tags/:name/'
+    category: '/categories/:name/'
+
+####################################
+######      Global end      ######
+####################################
+getform_id: 'ec0d9c96-ca5d-4357-922f-7fb53ccfc9c7' # active contact https://getform.io/f/1234
+
+
+
+# SUBSCRIVE FORM
+mailchimp:
+  user-id: #'c4e151b63d84a9bac731252a2'
+  list-id: #'ca518aaa14'
+  username: 'jekylltemplate.us5'
+
+####################################
+######        Copyright       ######
+####################################
+copyright_text: Copyright © 2022  All rights reserved to
+company_url: https://www.simuli.ai/'
+
+
+# SEO Related
+google_site_verification : 'ZXEWiP-cto7QzKAT9djmGW3gKpyjhTjdk_SBQ0UKWqs'
+bing_site_verification   : ''
+yandex_site_verification : ''
+naver_site_verification  : ''
+
+# Social Sharing
+twitter:
+  username               : ''
+facebook:
+  username               : ''
+  app_id                 : ''
+  publisher              : ''
+og_image                 :  '/assets/img/og_image.jpg' # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : '' # Person or Organization (defaults to Person)
+  name                   : '' # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : ''
+    anonymize_ip         : true # true, false (default)
+
+##########################################################################
+################################# menus  #################################
+##########################################################################
+menus:
+  - name: Home
+    url: '/'
+  - name: About
+    url: '/about/'
+  - name: Pages
+    url: '#'
+    children:
+    - name: Services
+      url:  '/service/'
+    - name: 'Applications'
+      url: '/work/'
+    - name: 'Our Team'
+      url: '/team/'
+    # - name: '404'
+    #   url: '/404.html'
+  - name: Blog
+    url: '/blog/'
+  - name: Contact
+    url: '/contact/'
+
+
+##########################################################################
+######################## socials profile #################################
+##########################################################################
+# socials:
+#   - url: '#'
+#     icon: 'fab fa-facebook-f'
+#   - url: '#'
+#     icon: 'fab fa-instagram'
+#   - url: '#'
+#     icon: 'fab fa-twitter'
+#   - url: '#'
+#     icon: 'fab fa-youtube'
+
+##########################################################################
+############################ about #######################################
+##########################################################################
+about:
+  description: We've designed a new processors using advanced math and an innovative hardware layout. The NDPU processes more information per transistor by compressing information before processing. Our early and unoptimized prototype already shows promising results.
+  image: assets/img/about/about-3.jpg
+  subtitle: The Processor for Hyperscale Computing
+  title: The NDPU
+
+about2:
+  bg_image: assets/img/about/about-3.jpg
+  description: Our new chip is designed to process more information per transistor, reducing costs and power in cloud, databases, blockchain, and AI applications.
+  list: <li> <i class="icofont-check-circled"></i> Less Power Consumption
+    </li> <li> <i class="icofont-check-circled"></i> Faster Compute Throughput </li>
+    <li> <i class="icofont-check-circled"></i> Post-quantum Secure </li>
+  subtitle: NDPU Features
+  title: The Processor for Hyperscale Computing
+  work_link: '/about/'
+  work_text: Learn More <i class="icofont-long-arrow-right"></i>
+
+##########################################################################
+############################ blog #######################################
+##########################################################################
+
+blog:
+  intro: See our Latest &amp; Talks &amp; Writtings <br> from our Experts
+  title: Blog
+
+##########################################################################
+############################ footer ######################################
+##########################################################################
+footer:
+  address:
+  bg_image:
+  copyright: "All Right Reserved, Simuli Inc"
+  description: "Compute More, with Less"
+  logo: assets/img/logo/logo.png
+
+footer2:
+  address:
+  copyright: "All Right Reserved, Simuli Inc"
+  helpfullink: Helpful Links
+  logo: assets/img/logo/logo.png
+  quicklink: Quick Links
+  description: 'Compute More, with Less '
+
+########################################################################
+##########################  worksItems #################################
+########################################################################
+
+worksItems:
+  - image: '/assets/img/work/cloud.png'
+    title: reducing cost of
+    subtitle: Cloud Services
+    work_link: '/cloud/'
+
+
+  - image: '/assets/img/work/car.jpg'
+    title: smarter and safer
+    subtitle: Self-Driving
+    work_link: '/selfdriving/'
+
+  - image: '/assets/img/work/database.jpg'
+    title: optimizing
+    subtitle: Database Processing
+    work_link: '/database/'
+
+  - image: '/assets/img/work/metaverse.jpg'
+    title: securing
+    subtitle: Metaverse Transactions
+    work_link: '/metaverse/'
+
+  - image: '/assets/img/work/mining.jpg'
+    title: climate friendly
+    subtitle: Blockchain Mining
+    work_link: '/blockchain/'
+
+
+##########################################################################
+######################## Cloud ############################################
+##########################################################################
+cloud:
+  description: 'The top 5 tech companies of the world spend over $100B on Data centers every year. This number is growing every year. With the expansion of Metaverse the need to process more and more data is set to exponentially grow. The NDPU compiler’s condensation approach towards data and the "lossless" abstraction algorithms embedded in the logic of NDPUs enable exponential efficiencies in hyperscale computing AKA data centers. Large datasets can be squeezed for better and more intelligent computing with less computing resources and power consumption. Our patented architecture allows for complex processing and multiplexing with only 200%+ less of the hardware and energy requirements. This means those companies spending $3M in power consumption can now spend only $1M just by migrating to an NDPU cloud. All of this is made possible by our elegant architecture that incorporates a different approach to math and neuroscience which is embedded in the chip. The result is 1. less computing capacity and infrastructure needed for the same amount of data processing and 2. less power consumption during run time for the same amount of data being processed.'
+  image: assets/img/work/cloud2.jpg
+  subtitle: Reducing costs of data centers.
+  title: Cloud Services
+
+
+
+####################################################################
+######################## Self-Driving ######################################
+####################################################################
+selfdriving:
+  description: The current cost of the "full self-drive" feature is about $12K per vehicle. This is because of the current chip capacity and AI training cost. The AI learning approach is highly inefficient and also very limited. The NDPU provides the ability to condense vectors and make the hardware more elegant, thereby requiring much less power and inefficient computations. The NDPU can reduce the need for very expensive hardware as well as AI training costs. Our chips also facilitate our novel approach to AGI. Transforming learning models from a series of in-efficient neural networks to cognitive networks with our holographic architecture approach. This allows automatic bootstrapping and inevitable generalization. Results are 1 cost reduction of hardware cost and less power consumption + hardware usage and 2 increased learning via less training required in new driving terrains, environments and regulations.
+  image: assets/img/work/car2.jpg
+  subtitle: Smarter and safer autonomous vehicles.
+  title: Self-Driving
+
+
+
+####################################################################
+######################## Database ######################################
+####################################################################
+database:
+  description: 'The challenge with database processing today is that as data grows, and it will continue to do so, more hardware infrastructure is needed to store and process that data. The technique known as data-sharding splits up mega databases into smaller chunks that are farmed out to many different processors. The more data, the more processors needed. The NDPU changes the status quo in database processing by reducing the need for data-sharding. First, our compression compiler converts information to a special form that abstracts the original data into an equivalent form but uses less bits to do so. The effect is that more information in each processor is processing more information per transistor. Secondly, our lightning fast, hard-wired logic is configured to execute search in nanoseconds. Results are 1 reduced cost in hardware and power because less hardware is needed and the chip is energy efficient compared to CPU and GPU and 2 faster database search and processing due to our patented lighting throughput technology.'
+  image: assets/img/work/database2.jpg
+  subtitle: Optimizing data processing pipelines
+  title: Database Processing
+
+
+####################################################################
+######################## Metaverse ######################################
+####################################################################
+metaverse:
+  description: Facebook, AKA Meta, alone said they would spend $30-40B on the metaverse alone in 2022. One of the foundations of the metaverse is to securely send and use private information on a global scale. As this emerging technology develops, it’s more important than ever that sensitive information is securely processed. The NDPU is post-quantum secure on several levels. On the software side, information is compressed by the NDPU compiler into an randomly encrypted string. Physically unclonable functions built into the hard ensure this random encryption is indiscernible by adversaries. Thus, the NDPU is a hyper secure chip capable of storing and processing encrypted data. The results are 1 safe processing of encrypted data and 2 software and hardware layers of security that ensures information is safe.
+  image: assets/img/work/metaverse2.jpg
+  subtitle: Securing sensitive information.
+  title: Metaverse Transactions
+
+
+
+####################################################################/home/whale/simuliinc.github.io/main/theme/assets/img/about/about-3.jpg
+######################## Blockchain ######################################
+####################################################################
+blockchain:
+  description: Some of the major blockchains, e.g. Bitcoin consumes significant energy because of their fundamental architecture. This results in very high greenhouse gas emissions, sometimes compromising economic business. This problem is set to increase given that many countries are planning to use digital currencies, which will also have a similar scalability problem. NDPUs can help alleviate this problem. Data sharding can be drastically reduced by compression and squeezing with efficient on chip processing at scale. This reduces the need for complex sharding and re-assembly. Current computing is being wasted and our patented approach will help reduce that wastage. Results are 1 significantly increased vertical scaling and 2 complex algorithm execution is faster due to distributed information being processed in one compressed state.
+  image: assets/img/work/mining2.jpg
+  subtitle: Climate friendly complexity solving.
+  title: Blockchain Mining
+
+
+##########################################################################
+######################## hero ############################################
+##########################################################################
+hero1:
+  intro: An advanced computing company
+  service_link: '/about/'
+  service_text: Explore More <i class="icofont-long-arrow-right"></i>
+  subtitle: Resource efficient hardware for scaleable and intelligent computing
+  title: Compute more, with less
+  title_link: '/work/'
+  title_text: Explore More <i class="icofont-long-arrow-right"></i>
+  video_link: #https://www.youtube.com/watch?v=ku6dEtynrRI
+  video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
+
+hero2:
+  intro: An advanced computing company
+  service_link: '/about/'
+  service_text: Explore More <i class="icofont-long-arrow-right"></i>
+  subtitle: Resource efficient hardware for scaleable and intelligent computing
+  title: Compute more, with less
+  title_link: '/about/'
+  title_text: Explore More <i class="icofont-long-arrow-right"></i>
+  video_link: https://youtube.com/watch?v=SmllS4oSKoI
+  video_text: <i class="fas fa-play"></i> <span class="how-txt">The NDPU</span>
+  right_img: /assets/img/logo/black-and-white-logo.png
+
+##########################################################################
+######################## promo ############################################
+##########################################################################
+promo:
+  contact_link: contact.html
+  contact_text: Contact Us
+  subtitle: Contact Us
+  title: Find out how our hardware solves your problem. Please Contact Us.
+
+##########################################################################
+######################## subscribe #######################################
+##########################################################################
+# subscribe:
+#   description: To get Our Weekly &amp; Monthly News. Subscribe Newsletter.
+#   image: assets/img/subscribe/sub-right.png
+#   title: Newsletter
+
+##########################################################################
+######################## whatwedo #######################################
+##########################################################################
+whatwedo:
+  contact_link: /contact/
+  contact_text: Contact Us
+  subtitle: What We Do
+  title: We Providing Scalable and Intelligent Hardware + Software stacks <br> To Our Clients.
+
+##########################################################################
+######################## features #######################################
+##########################################################################
+features:
+- image: assets/img/icons/man.png
+  type: Chip Designers
+  description: Working with expert neuroscientists, mathemeticians, and AGI experts, we're here to innovate copmpute hardware.
+- image: assets/img/icons/checked.png
+  type: Hyperscale Computing
+  description: As data continues to grow, computers are spending more in power and costs. We're radically innovating scalling pipelines.
+- image: assets/img/icons/rating.png
+  type: AGI
+  description: Artificial intelligence is quickly progressing to the next level -- AGI -- with our new hardware.
+- image: assets/img/icons/consult.png
+  type: Full Stack Pipelines
+  description: Our processors are co-designed from software and hardware with use in mind to ensure a perfect fit into your existing pipelines.
+
+# features2:
+# - image: assets/img/icons/man.png
+#   type: Chip Designers
+#   description: Mixed with experts neuroscientists, mathemeticians, and AGI experts, we're here to innovate copmpute hardware.
+# - image: assets/img/icons/checked.png
+#   type: Hyperscale Computing
+#   description: As data continues to grow, computers are spending more in power and costs. We're radically innovating scalling pipelines.
+# - image: assets/img/icons/rating.png
+#   type: AGI
+#   description: Artifcicial intelligence is quickly progressing to the next level -- AGI -- with our new hardware.
+# - image: assets/img/icons/consult.png
+#   type: Full Stack Pipelines
+#   description: Our processors are co-designed with use in mind to ensure an perfect fit into your existing pipelines.
+
+
+##########################################################################
+############################ facts #######################################
+##########################################################################
+facts:
+- image: assets/img/icons/1.png
+  counter: '3'
+  title: Power Reduction
+- image: assets/img/icons/2.png
+  counter: '28'
+  title: Speed Increase
+- image: assets/img/icons/feedback.png
+  counter: '178'
+  title: Memory Reduction
+
+##########################################################################
+############################ wedo #######################################
+##########################################################################
+# wedo:
+# - image: assets/img/icons/3.png
+#   title: Business Analysis
+#   description: BLEEP BLOP
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/4.png
+#   title: Financial Planning
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/5.png
+#   title: Digital Marketing
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+
+##########################################################################
+######################## work #######################################
+##########################################################################
+# work:
+#   description: Innovating on Multiple Fronts <br> inteligents team
+#   more_link: /work/
+#   more_text: Explore More <i class="icofont-long-arrow-right"></i>
+#   title: Protfolio
+# works:
+# - image: assets/img/work/1.png
+# - image: assets/img/work/2.png
+# - image: assets/img/work/3.png
+
+##########################################################################
+######################## reviews #######################################
+##########################################################################
+# reviews:
+# - quotes: Lorem Ipsum dolor seat ameat dui too consecteture more be elite. According
+#     the agency is best for growing your business what your A best consulting business
+#     agency.
+#   author: Atardam Steve
+#   status: Founder
+# - quotes: Lorem Ipsum dolor seat ameat dui too consecteture more be elite. According
+#     the agency is best for growing your business what your A best consulting business
+#     agency.
+#   author: Atardam Steve
+#   status: Founder
+
+####################################################################
+######################## feature ###################################
+####################################################################
+feature_service:
+  title: ' Innovating on Multiple Fronts'
+  subtitle: 'Applications'
+
+feature_services:
+  - name: Cloud Services
+    image: '/assets/img/work/cloud.png'
+    title: Cloud Services
+    service_text: dsfds
+    service_link: '/cloud/'
+
+  - name: Artificial Intelligence
+    image: '/assets/img/work/brain.jpg'
+    title: Artificial Intelligence
+    service_text: Explore Service
+    service_link: '/work/'
+
+  - name: Blockchain Technologies
+    image: '/assets/img/work/block.png'
+    title: Blockchain Tech
+    service_text: Explore Service
+    service_link: '/blockchain/'
+
+####################################################################
+######################## feedbacks #################################
+####################################################################
+feedbacks:
+- image: assets/img/review/rachel.png
+  description: We founded Simuli to create more powerful computers that can proctect us from exestential risks. I strongly believe our resource efficient path is the correct path to more scalable and intelligent computing.
+  author: Rachel St.Clair
+  status: CEO
+
+# - image: assets/img/review/ben.png
+#   description: "Custom hardware for AGI will do what Nvidia GPUs did for deep learning."
+#   author: Ben Goertzel
+#   status: CRO
+
+- image: assets/img/review/binoy.png
+  description: "Tech infrastructure has reached an inflection point with data sizes and complexity exponentially exploding, costs are exploding too. It's just not scalable to use existing architectures to keep going, something new and transformative is needed, like the NDPU."
+  author: Binoy Syed
+  status: COO
+
+####################################################################
+######################## faq ######################################
+####################################################################
+
+faq:
+  description: Common Technical Questions
+  image: assets/img/faq/fag-bg.png
+  title: NDPU Details
+
+faq2:
+  description: The NDPU uses a special combination of logic and memory on chip and combines that with an auto-vectorizing compiler to compress information before computing it. Our patented technology significantly reduces power and overall hardware costs.
+  image: assets/img/about/about-3.jpg
+  subtitle: More on the NDPU
+  title: NDPU Technical Details
+
+faqs:
+- title: 1. How does the NDPU reduce power consumption?
+  description: Information is automatically compressed into a holographic math state and then processed in the compressed form. This technique uses less memory which reduces power needed.
+- title: 2. How is the NDPU processing more info per transistor?
+  description: Since information is compressed before processed, each transistor can be running in parallel computing all of the info with less bits used to represent that info.
+- title: 3. Is the NDPU intelligent?
+  description: Our new chip uses a type of math that is contextual, this means that a new type of artificial intelligence can be supported without adding more and more GPUs as models scale.
+- title: 4. What makes the NDPU secure?
+  description: The chip uses two forms of secuirty. First, the software layer randomly scrambles the data into a abstract binary string. Then, the hardware uses PUF to ensure the random scramble is post-quantum secure.
+- title: 5. What is unique about the NDPU?
+  description: Our floor layout of logic and memory is like islands of logic in a sea of memory. The logic is designed for fixed point geometric operations instead of floating point matrix multiplication ops. All information is compressed, binarized, and vectorized on chip.
+- title: 6. Should I use an NDPU?
+  description: Anyone who is processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power will love the NDPU.
+
+faqs2:
+- title: 1. How does the NDPU reduce power consumption?
+  description: Information is automatically compressed into a holographic math state and then processed in the compressed form. This technique uses less memory which reduces power needed.
+- title: 2. How is the NDPU processing more info per transistor?
+  description: Since information is compressed before processed, each transistor can be running in parallel computing all of the info with less bits used to represent that info.
+- title: 3. Is the NDPU intelligent?
+  description: Our new chip uses a type of math that is contextual, this means that a new type of artificial intelligence can be supported without adding more and more GPUs as models scale.
+- title: 4. What makes the NDPU secure?
+  description: The chip uses two forms of secuirty. First, the software layer randomly scrambles the data into a abstract binary string. Then, the hardware uses PUF to ensure the random scramble is post-quantum secure.
+- title: 5. What is unique about the NDPU?
+  description: Our floor layout of logic and memory is like islands of logic in a sea of memory. The logic is designed for fixed point geometric operations instead of floating point matrix multiplication ops. All information is compressed, binarized, and vectorized on chip.
+- title: 6. Should I use an NDPU?
+  description: Anyone who is processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power will love the NDPU.
+
+####################################################################
+######################## case ######################################
+####################################################################
+service:
+  subtitle: Services
+  title: We Providing Some Special Services <br> To Our Clients.
+# singlearea:
+#   image: assets/img/subscribe/sub-right.png
+#   subtitle: Newsletter
+#   title: To get Our Weekly &amp; Monthly News Subscribe Newsletter.
+
+case:
+  subtitle: Recently Some Cases Done by Our <br> Agency Team
+  title: Applications
+  work_link: '/work/'
+  work_text: Explore More <i class="icofont-long-arrow-right"></i>
+cases:
+- image: assets/img/work/7.jpg
+  title: Cloud Services
+  subtitle: Cloud Services and Databse Optimization
+- image: assets/img/work/car.jpg
+  title: Artificial Intelligence
+  subtitle: Self-driving and Assisted Driver
+- image: assets/img/work/car.jpg
+  title: Blochchain Tech
+  subtitle: Mining and Metaverse
+
+whatarea1:
+- image: assets/img/icons/3.png
+  title: Chip Design
+  description: Innovative hardware backed by layers of interdisciplinary expertise.
+  service_text: Explore Products
+  service_link: '/about'
+- image: assets/img/icons/4.png
+  title: Custom Software Stacks
+  description: Streamlining solutions with our chips to take you to the next level.
+  service_text: Explore Solutions
+  service_link: '/software/'
+- image: assets/img/icons/5.png
+  title: Deployment and Integration
+  description: Ensuring adoption is simple and powerful.
+  service_text: Explore Service
+  service_link: '/deployment/'
+
+
+
+
+####################################################################
+######################## Software ######################################
+####################################################################
+software:
+  description: Our custom software is designed for your specific solution and maximally optimized to work with the NDPU chip. From step one, our expert engineers hand tailor a solution that perfectly fits your needs without disrupting work flows all while increasing performance. We make your performance priorities ours from day one throughout the evolution of our NDPU generations. Contact us today if you’re interested in a custom solution to make your stack spectacular.
+  image: assets/img/singlepost/Torus_2.png
+  subtitle: Streamlining solutions to take you to the next level.
+  title: Custom Software Stacks
+  service_text: Explore Applications
+  service_link: '/work/'
+
+
+####################################################################
+######################## Deployment ######################################
+####################################################################
+deployment:
+  description: The NDPU is a “must-have” for hyperscale computing. With our open-source support software and dedicated dev maintenance team, using the chip is as simple as 1-2-3. But if your company has many servers and doesn’t want to spend the time spinning up each chip, we’re happy to send our all-stars out to help configure and deploy the perfect compute set-up, just for you. You’ll receive dedicated support for integrating your existing processing pipelines with this powerful new processor.
+  image: assets/img/singlepost/Torus_Knot_2.png
+  subtitle: Ensuring adoption is simple and powerful.
+  title: Deployment and Integration
+  service_text: Contact Us
+  service_link: '/contact/'
+
+
+
+####################################################################
+######################## Team ######################################
+####################################################################
+teams:
+- image: assets/img/team/1.png
+  username: Rachel St.Clair, PhD
+  profession: CEO
+  description: Leading thinker on the intersection of computing, math & neuroscience. 20+ Papers published, several citations. Leads Center for Future Mind
+- image: assets/img/team/2.png
+  username: Ben Goertzel, PhD
+  description: Expert on advanced computing. 450+ paper published & cited over 5k times. Created world's first robot citizen. Founder of SingularityNet and TrueAGI.
+  profession: Co-Founder
+- image: assets/img/team/3.png
+  username: Binoy Syed
+  profession: COO
+  description: Semiconductor & ASIC Industry. Leader and experimental technologist with expertise in manufacturing, engineering, commercialization & alliances.
+
+mentors:
+- image: assets/img/team/4.png
+  username: L. Andrew Coward
+  profession: Mentor
+  description: Creator of the Recommendation Architecture. 30+ years at Nortel Networks in design of electronic control systems. 24 years in complex systems and neuroscience. 4 books, 100+ publications and lectures.
+  web: http://www.landrewcoward.com/
+- image: assets/img/team/5.png
+  username: Susan Schneider, PhD
+  profession: Mentor
+  description: Prominent philosopher in AI and ethics, founding director of the new Center for the Future Mind, as the NASA chair, Schneider has recently completed a two year project with NASA on the future of intelligence.
+  web: https://schneiderwebsite.com/index.html

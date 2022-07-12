@@ -1,0 +1,161 @@
+---
+#layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	{%- include head.html -%}
+
+</head>
+
+<body class="demo-1" id="bdy">
+
+	<!-- Start PreLoader
+    ============================================= -->
+	<div class="se-pre-con"></div>
+	<!-- Start PreLoader-->
+
+	<div class="theme_all_wrap" data-magic-cursor=" " data-color="crimson">
+
+		<!-- Document Wrapper
+=============================== -->
+		<div id="main-wrapper">
+
+			<!-- Start header
+    ============================================= -->
+			{%- include header.html -%}
+			<!-- End header -->
+
+
+			<main class="main">
+				<!-- Start Breadcrumb
+						============================================= -->
+				<div class="site-breadcrumb" style="background: url('{{ 'assets/img/breadcrumb/breadcrumb.png' | relative_url }}')">
+					<div class="container wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+
+						{%- if layout.name == 'post' -%}
+							<h2 class="breadcrumb-title">{{ "Blog Details" }}</h2>
+						{%- else -%}
+							<h2 class="breadcrumb-title">{{ page.title | default: site.title }}</h2>
+						{%- endif -%}
+						<ul class="breadcrumb-menu clearfix">
+							<li><a href="{{'/' | relative_url }}">Home</a></li>
+							{%- if layout.name == 'post' -%}
+								<li><a href="{{'/blog/' | relative_url }}">Blog</a></li>
+								<li class="active">Details</li>
+							{%- else -%}
+								<li class="active">{{ page.title | truncatewords: 2 , "" }}</li>
+							{%- endif -%}
+						</ul>
+					</div>
+				</div>
+				<!-- End  Breadcrumb -->
+
+				<!-- Start Blog-Content
+						============================================= -->
+				<div class="single-area de-padding">
+					<div class="container">
+						<div class="single-page-info">
+							<aside class="sidebar">
+								<!--Search-->
+								<div class="sidebar-widget search">
+									<form>
+										<input type="text" placeholder="Search" id="search-input">
+										<button class="sub-btn"><i class="fas fa-search"></i></button>
+									</form>
+									<div class="p-3">
+										<ul id="results-container" class="mx-3"></ul>
+									</div>
+								</div>
+								<!--categories-->
+								<div class="sidebar-widget cate">
+									<h4 class="widget-title">Case Category</h4>
+									<ul>
+										{% assign categories_list = site.categories %}
+										{% for category in categories_list %}
+										<li>
+											<a href="{{site.base_url }}/categories/{{ category[0] | downcase | url_escape | strip | replace: ' ', '-' | replace: '-&', '' }}">
+												{{ category[0] | camelcase }}
+												<span>
+													{{ category[0].size }}
+												</span>
+											</a>
+										</li>
+										{% endfor %}
+										{% assign categories_list = nil %}
+									</ul>
+								</div>
+								<!--Recent Post-->
+								<div class="sidebar-widget recent-post wow fadeInUp" data-wow-duration="1s"
+									data-wow-delay=".6s"
+									style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInUp;">
+									<h4 class="widget-title">Recent Post</h4>
+									<div class="recent-post-content">
+										{%- for post in site.posts limit:5 -%}
+										<div class="recent-post-single">
+											<div class="recent-post-img">
+												<a href="{{post.url}}">
+													<img src="{{post.image | relative_url }}" alt="thumb">
+												</a>
+											</div>
+											<div class="recent-post-info">
+												<a href="#"><span>{{post.date | date_to_string}}</span></a>
+												<a href="{{post.url}}">
+													<h5>{{post.title | truncate: 27, '' }}</h5>
+												</a>
+											</div>
+										</div>
+										{%- endfor -%}
+									</div>
+								</div>
+							</aside>
+							{{ content }}
+						</div>
+					</div>
+				</div>
+				<!-- End  Blog-Content -->
+
+				<!-- Start Subscribe
+								============================================= -->
+				<!-- {%- include sections/subscribe.html -%} -->
+				<!-- End Subscribe -->
+			</main>
+
+
+			<!-- Start Footer
+	============================================= -->
+			{%- include footer.html -%}
+			<!-- End Footer-->
+
+			<!-- Start Scroll top
+	============================================= -->
+			<a href="#bdy" id="scrtop" class="smooth-menu"><i class="ti-arrow-up"></i></a>
+			<!-- End Scroll top-->
+
+			<!-- CURSOR -->
+			<div class="mouse-cursor cursor-outer"></div>
+			<div class="mouse-cursor cursor-inner"></div>
+			<!-- /CURSOR -->
+		</div>
+	</div> <!-- Mouse Cursor End -->
+	<!-- jQuery Frameworks
+    ============================================= -->
+
+
+
+	{%- include scripts.html -%}
+	<!-- or without installing anything -->
+	<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+
+	<script>
+		var sjs = SimpleJekyllSearch({
+			searchInput: document.getElementById('search-input'),
+			resultsContainer: document.getElementById('results-container'),
+			json: '/search.json'
+		})
+	</script>
+</body>
+
+</html>

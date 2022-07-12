@@ -1,0 +1,28 @@
+<!-- Start Subscribe
+		============================================= -->
+<div class="sub-area de-padding" style="background-image: url(/assets/img/subscribe/bg.png)">
+    <div class="container">
+        <div class="sub-wpr grid-2">
+            <div class="sub-left">
+                <div class="site-title">
+                    <span class="about-sub-title wh">{{ site.singlearea.subtitle }}</span>
+                    <h2 data-splitting class="about-title wh mb-0 wow" data-wow-duration=".1s" data-wow-delay=".4s">
+                    {{ site.singlearea.title }}
+                    </h2>
+                </div>
+
+                <form id="mc-form" method="POST" action="http://{{ site.mailchimp.username}}.list-manage.com/subscribe/post-json?u={{site.mailchimp.user-id}}&id={{site.mailchimp.list-id}}" class="sub-form wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                    <label for="mc-email" style="display: none;"></label>
+                    <input name="email" type="email"  id="mc-email" placeholder="Your e-mail Address" class="input-style-1">
+                    <button type="submit" class="sub-btn hv btn-3">Subscribe</button>
+                    <br />
+                    <div id="mc-form-info" class="pt-2 text-white"></div>
+                </form>
+            </div>
+            <div class="sub-right text-center">
+                <img src="{{'/assets/img/subscribe/sub-right.png' | relative_url }}" alt="thumb">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Subscribe -->

@@ -1,0 +1,61 @@
+---
+title: Our Blog
+layout: 'blog'
+description: ''
+keywords: []
+comment: false
+---
+
+<div class="blog-pagination">
+	<div class="blog-wpr grid-2">
+		{%- for post in paginator.posts -%}
+		<div class="blog-box blog-2">
+			<div class="blog-pic">
+				<img src="{{post.image | relative_url }}" alt="thumb">
+			</div>
+			<div class="blog-info">
+				<a href="{{post.url}}">
+					<h5 class="blog-title">
+						{{ post.title }}
+					</h5>
+				</a>
+				<ul class="blog-meta">
+					<li><i class="icofont-user-alt-4"></i> {{ post.author | default: "Admin" }}</li>
+					<li><i class="icofont-clock-time"></i> {{ post.date | date_to_string }}</li>
+				</ul>
+				<a href="{{post.url}}" class="fz-16-5">
+					Read More
+				</a>
+			</div>
+		</div>
+		{%- endfor -%}
+	</div>
+	<div class="pagination-wrapper">
+		{% if paginator.total_pages > 1 %}
+		<div class="pagination">
+			{% if paginator.previous_page %}
+			<a class="prev page-numbers" href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+			{% else %}
+			<a class="prev page-numbers" href="#"> Prev</a>
+			{% endif %}
+
+			{% for page in (1..paginator.total_pages) %}
+			{% if page == paginator.page %}
+			<span aria-current="page" class="page-numbers current">{{ page }}</span>
+			{% elsif page == 1 %}
+			<a class="page-numbers" href="{{ '/' | relative_url }}">{{ page }}</a>
+			{% else %}
+			<a class="page-numbers" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page
+				}}</a>
+			{% endif %}
+			{% endfor %}
+
+			{% if paginator.next_page %}
+			<a class="next page-numbers" href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+			{% else %}
+			<span class="next page-numbers">Next</span>
+			{% endif %}
+		</div>
+		{% endif %}
+	</div>
+</div>

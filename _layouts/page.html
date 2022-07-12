@@ -1,0 +1,55 @@
+---
+#layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	{%- include head.html -%}
+</head>
+
+<body class="demo-1" id="bdy">
+
+	<!-- Start PreLoader
+    ============================================= -->
+	<div class="se-pre-con"></div>
+	<!-- Start PreLoader-->
+
+	<div class="theme_all_wrap" data-magic-cursor=" " data-color="crimson">
+
+		<!-- Document Wrapper   
+=============================== -->
+		<div id="main-wrapper">
+
+			<!-- Start header
+    ============================================= -->
+			{%- include header.html -%}
+			<!-- End header -->
+
+
+			<main class="main">
+				{{ content }}
+			</main>
+
+
+
+			<!-- Start Scroll top
+	============================================= -->
+			<a href="#bdy" id="scrtop" class="smooth-menu"><i class="ti-arrow-up"></i></a>
+			<!-- End Scroll top-->
+
+			<!-- CURSOR -->
+			<div class="mouse-cursor cursor-outer"></div>
+			<div class="mouse-cursor cursor-inner"></div>
+			<!-- /CURSOR -->
+		</div>
+	</div> <!-- Mouse Cursor End -->
+
+	<!-- jQuery Frameworks 
+    ============================================= -->
+
+	{%- include scripts.html -%}
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+---
+layout: archive
+---
+
+<div class="blog-pagination">
+    <div class="blog-wpr grid-2">
+        {%- for post in page.posts limit: 30 -%}
+        <div class="blog-box blog-2">
+            <div class="blog-pic">
+                <img src="{{post.image | relative_url }}" alt="thumb">
+            </div>
+            <div class="blog-info">
+                <a href="{{post.url}}">
+                    <h5 class="blog-title">
+                        {{ post.title }}
+                    </h5>
+                </a>
+                <ul class="blog-meta">
+                    <li><i class="icofont-user-alt-4"></i> {{ post.author | default: "Admin" }}</li>
+                    <li><i class="icofont-clock-time"></i> {{ post.date | date_to_string }}</li>
+                </ul>
+                <a href="{{post.url}}" class="fz-16-5">
+                    Read More
+                </a>
+            </div>
+        </div>
+        {%- endfor -%}
+    </div>
+
+</div>

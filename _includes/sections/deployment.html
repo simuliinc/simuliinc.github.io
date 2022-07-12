@@ -1,0 +1,20 @@
+<div class="about-area de-padding">
+	<div class="about-wpr grid-2">
+		<div class="about-left">
+			<div class="about-img wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
+				<img src="{{ site.deployment.image | relative_url }}" alt="thumb">
+			</div>
+		</div>
+		<div class="about-right about-padding-right">
+			<span class="about-sub-title">{{ site.deployment.title }}</span>
+			<h2 data-splitting class="about-title wow" data-wow-duration=".1s" data-wow-delay=".2s">{{
+				site.deployment.subtitle }}
+			</h2>
+			<p>{{ site.deployment.description }}</p>
+
+			<div class="about-btn mt-60 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+				<a href="{{ site.deployment.service_link }}" class="theme-btn">{{ site.deployment.service_text }}</a>
+			</div>
+		</div>
+	</div>
+</div>

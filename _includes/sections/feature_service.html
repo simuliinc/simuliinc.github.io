@@ -1,0 +1,20 @@
+<div class="feature-service">
+	<div class="container">
+		<div class="feature-wpr grid-4">
+			{%- for feature_service in site.feature_service -%}
+
+			<div class="feature-box wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+				<div class="feature-icon">
+					<img src="{{ feature_service.image | relative_url }}" alt="thumb">
+				</div>
+				<div class="feature-info">
+					<h5>{{ feature_service.name }}</h5>
+					<p class="mb-40">{{ feature_service.description }}</p>
+					<a href="{{ feature_service.service_link }}" class="what-btn">{{ feature_service.service_text  }}</a>
+				</div>
+			</div>
+
+			{%- endfor -%}
+		</div>
+	</div>
+</div>

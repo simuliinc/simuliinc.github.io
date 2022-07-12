@@ -1,0 +1,76 @@
+---
+layout: blog
+name: post
+---
+
+<div class="blog-single-info">
+    <div class="blog-single-header mb-50">
+        <img src="{{page.image | default: '/assets/img/singlepost/de-blog.png' | relative_url }}"
+            class="blog-single-pic" alt="thumb">
+        <h4 class="blog-single-title">
+            {{ page.title }}
+        </h4>
+        <ul class="blog-single-meta mb-50">
+            <li><i class="icofont-user"></i>{{ page.author | Default: "Admin" }}</li>
+            <li><i class="icofont-clock-time"></i>{{ page.date | date_to_long_string }}</li>
+            <li>
+                {%- assign category = page.categories | first | slugify -%}
+                <a href="{{ '/categories/' | append: category | relative_url | replace: '-&', ''}}" ><i class="icofont-tack-pin"></i>{{ page.categories | first }}</a>
+            </li>
+        </ul>
+        <div class="blog-single-text">
+            {{ content }}
+        </div>
+    </div>
+    <div class="blog-single-tag mb-50 d-flex align-items-center justify-content-between">
+
+        {%- if page.tags -%}
+        <div class="blog-tag-links d-flex align-items-center">
+            <h5 class="mb-0">Tags:</h5>
+            <div class="blog-tag-link">
+                {%- for tag in page.tags -%}
+                <a href="{{ 'tags/' | append: tag | downcase | relative_url }}">
+                    {{tag}} {%- if forloop.last == false-%} , {%- endif -%}
+                </a>
+                {%- endfor -%}
+            </div>
+        </div>
+        {%- endif -%}
+
+        <ul class="footer-social">
+            <li>
+                <a href="https://twitter.com/intent/tweet?{% if site.twitter.username %}via={{ site.twitter.username | url_encode }}&{% endif %}text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}"
+                    onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                    title="{{  'Share on' }} Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}"
+                    onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                    title="{{  'Share on' }} Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}"
+                    onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                    title="{{  'Share on' }} LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="blog-single-nxt-prev mb-130">
+        {% if page.previous.url %}
+        <a href="{{page.previous.url}}"><i class="icofont-arrow-left"></i></a>
+        {% endif %}
+        {% if page.next.url %}
+        <a href="{{page.next.url}}"> <i class="icofont-arrow-right"></i></a>
+        {% endif %}
+    </div>
+    <div class="blog-single-comment wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+        {%- include disqus_comments.html -%}
+    </div>
+</div>

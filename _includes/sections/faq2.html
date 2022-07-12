@@ -1,0 +1,37 @@
+<div class="faq-2-area">
+	<div class="container">
+		<div class="faq-2-wpr grid-2">
+			<div class="faq-2-left">
+				<span class="about-sub-title">{{ site.faq2.title }}</span>
+				<h2 data-splitting class="about-title mb-60 wow" data-wow-duration=".1s" data-wow-delay=".4s">{{
+					site.faq2.subtitle }}</h2>
+				<p class="mb-50">{{ site.faq2.description }}</p>
+				<div class="faq-2-pic wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
+					<img src="{{ site.faq2.image | relative_url  }}" alt="thumb">
+				</div>
+			</div>
+			<div class="faq-2-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+				<div class="accordion" id="accordionExample">
+					{%- for faqs2 in site.faqs2 -%}
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="heading{{forloop.index}}">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">
+								{{ faqs2.title }}
+							</button>
+						</h2>
+						<div id="collapse{{forloop.index}}" class="accordion-collapse collapse" aria-labelledby="heading{{forloop.index}}"
+							data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<p class="mb-0">{{ faqs2.description }}</p>
+							</div>
+						</div>
+					</div>
+
+					{%- endfor -%}
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

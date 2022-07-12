@@ -1,0 +1,31 @@
+<div class="work-area de-pb">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-8 offset-xl-2">
+				<div class="site-title text-center">
+					<span class="about-sub-title">{{ site.work.title }}</span>
+					<h2 data-splitting class="about-title mb-0 wow" data-wow-duration=".1s" data-wow-delay=".6s">
+						{{ site.work.description }}
+					</h2>
+				</div>
+			</div>
+		</div>
+		<div class="work-wpr magnific-mix-gallery">
+			<div class="work-grid-1 mb-30">
+				{%- for works in site.works -%}
+				<div class="work-pic work-pic-3">
+					<img src="{{ works.image | relative_url }}" alt="thumb">
+					<div class="work-overlay">
+						<a href="{{ works.image | relative_url }}" class="item popup-link">
+							<i class="ti ti-eye"></i>
+						</a>
+					</div>
+				</div>
+				{%- endfor -%}
+			</div>
+		</div>
+		<div class="work-btn text-center mt-70">
+			<a href="{{ site.work.more_link }}" class="theme-btn">{{ site.work.more_text }}</a>
+		</div>
+	</div>
+</div>

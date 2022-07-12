@@ -1,0 +1,21 @@
+<div class="team-area de-padding">
+	<div class="container">
+		<div class="team-wpr grid-4">
+			{%- for team in site.mentors -%}
+			<div class="team-box wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+				<div class="team-pic">
+					<img src="{{ team.image | relative_url }}" alt="thumb">
+					<!-- <ul class="team-social">
+						<li><a href="{{team.web |default: '#'}}"><i class="fab fa-instagram"></i></a></li>
+					</ul> -->
+				</div>
+				<div class="team-desc">
+					<h5 class="fz-20-5">{{ team.username }}</h5>
+					<span>{{ team.profession }}</span>
+				</div>
+				<span>{{ team.description }}</span>
+			</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</div>

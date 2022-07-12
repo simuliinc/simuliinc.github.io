@@ -1,0 +1,36 @@
+<div class="case-area de-pt">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-8 offset-xl-2">
+				<div class="site-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+					<span class="about-sub-title">{{ site.case.title }}</span>
+					<h2 class="about-title mb-0">{{ site.case.subtitle }}</h2>
+				</div>
+			</div>
+		</div>
+		<div class="case-wpr grid-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+
+
+
+			{%- for cases in site.cases -%}
+
+			<div class="case-box">
+				<div class="case-pic">
+					<img src="{{ cases.image }}" alt="thumb">
+				</div>
+				<div class="case-info">
+					<span class="d-block l-h-1 fz-16 mb-20">{{ cases.title }}</span>
+					<a href="work-single.html">
+						<h5 class="mb-0 fz-20 l-h-1">{{ cases.subtitle }}</h5>
+					</a>
+				</div>
+			</div>
+
+			{%- endfor -%}
+
+		</div>
+		<div class="case-btn mt-60 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+			<a href="{{ site.case.work_link }}" class="what-btn">{{ site.case.work_text }}</a>
+		</div>
+	</div>
+</div>

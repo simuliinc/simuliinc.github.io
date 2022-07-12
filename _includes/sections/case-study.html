@@ -1,0 +1,36 @@
+<div class="case-area de-pt">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2">
+                <div class="site-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                    <span class="about-sub-title">{{site.feature_service.subtitle }}</span>
+                    <h2 class="about-title mb-0">
+                        {{site.feature_service.title }}
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="case-wpr grid-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+
+            {%- for item in site.feature_services -%}
+            <div class="case-box">
+                <div class="case-pic">
+                    <img src="{{item.image | relative_url }}" alt="thumb">
+                </div>
+                <div class="case-info">
+                    <span class="d-block l-h-1 fz-16 mb-20">{{item.subtitle}}</span>
+                    <a href="{{ item.service_link | default: '#'}}">
+                        <h5 class="mb-0 fz-20 l-h-1">{{item.title}}</h5>
+                    </a>
+                </div>
+            </div>
+            {%- endfor -%}
+
+        </div>
+        <div class="case-btn mt-60 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+            <a href="/work/" class="what-btn">
+                Explore More <i class="icofont-long-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+</div>

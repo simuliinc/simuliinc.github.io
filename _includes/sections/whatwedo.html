@@ -1,0 +1,42 @@
+<div class="what-area de-pb">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-8 offset-xl-2">
+				<div class="site-title text-center">
+					<span class="about-sub-title">{{ site.whatwedo.subtitle }}</span>
+					<h2 data-splitting class="about-title mb-0 wow" data-wow-duration=".1s" data-wow-delay=".2s">{{
+						site.whatwedo.title }}</h2>
+				</div>
+			</div>
+		</div>
+		<div class="what-wpr grid-3">
+
+
+
+			{%- for wedo in site.wedo -%}
+
+			<div class="what-box wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+				<div class="what-icon">
+					<img src="{{ wedo.image | relative_url }}" alt="thumb">
+				</div>
+				<div class="what-info">
+					<h5>{{ wedo.title }}</h5>
+					<p>{{ wedo.description }}</p>
+					<a href="{{ wedo.service_link }}" class="what-btn">{{ wedo.service_text  }}</a>
+				</div>
+			</div>
+
+			{%- endfor -%}
+
+
+		</div>
+
+
+		<div class="what-footer mt-60">
+			<h5 class="mb-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+				If you have any project or task for us Please
+				<a href="{{ site.whatwedo.contact_link }}">{{ site.whatwedo.contact_text  }}</a>
+			</h5>
+		</div>
+	</div>
+</div>

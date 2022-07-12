@@ -1,0 +1,44 @@
+<div class="feedback-area de-padding">
+	<div class="container">
+		<div class="swiper-container feed-active">
+			<div class="swiper-wrapper">
+
+				{%- for feedbacks in site.feedbacks -%}
+
+				<div class="swiper-slide">
+					<div class="row g-0">
+						<div class="col-xl-5">
+							<div class="feedback-left">
+								<div class="feedback-pic text-center">
+									<img src="{{ feedbacks.image | relative_url }}" alt="thumb">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-7">
+							<div class="feedback-right">
+								<p class="mb-30">{{ feedbacks.description }}</p>
+								<div class="feedback-bio">
+									<h5>{{ feedbacks.author }}</h5>
+									<span class="d-block">{{ feedbacks.status }}</span>
+									<div class="review-rating mt-40 d-flex align-items-center">
+										<i class="icofont-star"></i>
+										<i class="icofont-star"></i>
+										<i class="icofont-star"></i>
+										<i class="icofont-star"></i>
+										<i class="icofont-star"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				{%- endfor -%}
+
+				<!--Swiper Slider-->
+
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+</div>
