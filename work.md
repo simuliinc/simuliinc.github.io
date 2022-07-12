@@ -1,6 +1,7 @@
 ---
 title: Applications
 layout: 'page'
+permalink: '/work/'
 description: ''
 keywords: []
 image: ''
