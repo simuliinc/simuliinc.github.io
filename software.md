@@ -1,5 +1,5 @@
 ---
-title: Software Stacks
+title: Software
 layout: 'page'
 permalink: '/software/'
 description: ''
