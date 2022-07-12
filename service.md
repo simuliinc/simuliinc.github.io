@@ -1,6 +1,7 @@
 ---
 title: Our Services
 layout: 'page'
+permalink: '/service/'
 description: ''
 keywords: []
 image: ''
