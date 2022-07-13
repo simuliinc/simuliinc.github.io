@@ -11,8 +11,8 @@ description         : An advanced computing company innovating low power, resour
 baseurl             : "" # the subpath of your site, e.g. /blog
 url                 : "https://www.simuli.ai/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 locale              : "en_US"
-logo                : assets/img/logo/simuli_logoBW.svg
-logo2               : assets/img/logo/simuli_logoBW.svg
+logo                : assets/img/logo/logo.png
+logo2               : assets/img/logo/logo.png
 
 author:
   name:
