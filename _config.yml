@@ -209,7 +209,7 @@ menus:
 ############################ about #######################################
 ##########################################################################
 about:
-  description: We've designed a new processors using advanced math and an innovative hardware layout. The NDPU processes more information per transistor by compressing information before processing. Our early and unoptimized prototype already shows promising results.
+  description: We've designed a new processor using advanced math and an innovative hardware layout. The NDPU processes more information per transistor by compressing information before processing. Our early and unoptimized prototype already shows promising results.
   image: assets/img/about/about-3.jpg
   subtitle: The Processor for Hyperscale Computing
   title: The NDPU
@@ -394,16 +394,16 @@ whatwedo:
 features:
 - image: assets/img/icons/man.png
   type: Chip Designers
-  description: Working with expert neuroscientists, mathemeticians, and AGI experts, we're here to innovate copmpute hardware.
+  description: Working with expert neuroscientists, mathematicians, and AGI experts, we're here to innovate computer hardware.
 - image: assets/img/icons/checked.png
   type: Hyperscale Computing
-  description: As data continues to grow, computers are spending more in power and costs. We're radically innovating scalling pipelines.
+  description: As data continues to grow, the tech industry is spending more in power and costs. We're radically improving scaling pipelines.
 - image: assets/img/icons/rating.png
   type: AGI
   description: Artificial intelligence is quickly progressing to the next level -- AGI -- with our new hardware.
 - image: assets/img/icons/consult.png
   type: Full Stack Pipelines
-  description: Our processors are co-designed from software and hardware with use in mind to ensure a perfect fit into your existing pipelines.
+  description: Our processors are co-designed from software to hardware with use in mind to ensure a perfect fit into your existing pipelines.
 
 # features2:
 # - image: assets/img/icons/man.png
@@ -515,7 +515,7 @@ feature_services:
 ####################################################################
 feedbacks:
 - image: assets/img/review/rachel.png
-  description: We founded Simuli to create more powerful computers that can proctect us from exestential risks. I strongly believe our resource efficient path is the correct path to more scalable and intelligent computing.
+  description: We founded Simuli to create more powerful computers that can protect us from existential risks. I strongly believe our resource efficient path is the correct path to more scalable and intelligent computing.
   author: Rachel St.Clair
   status: CEO
 
@@ -552,9 +552,9 @@ faqs:
 - title: 3. Is the NDPU intelligent?
   description: Our new chip uses a type of math that is contextual, this means that a new type of artificial intelligence can be supported without adding more and more GPUs as models scale.
 - title: 4. What makes the NDPU secure?
-  description: The chip uses two forms of secuirty. First, the software layer randomly scrambles the data into a abstract binary string. Then, the hardware uses PUF to ensure the random scramble is post-quantum secure.
+  description: The chip uses two forms of security. First, the software layer randomly scrambles the data into an abstract string. Then, the hardware uses PUF to ensure the random scramble is post-quantum secure.
 - title: 5. What is unique about the NDPU?
-  description: Our floor layout of logic and memory is like islands of logic in a sea of memory. The logic is designed for fixed point geometric operations instead of floating point matrix multiplication ops. All information is compressed, binarized, and vectorized on chip.
+  description: Our floor layout of logic and memory is like islands of logic in a sea of memory. The logic is designed for fixed point geometric operations instead of floating point matrix multiplication ops of GPUs. All information is compressed, binarized, and vectorized on chip.
 - title: 6. Should I use an NDPU?
   description: Anyone who is processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power will love the NDPU.
 
@@ -566,11 +566,12 @@ faqs2:
 - title: 3. Is the NDPU intelligent?
   description: Our new chip uses a type of math that is contextual, this means that a new type of artificial intelligence can be supported without adding more and more GPUs as models scale.
 - title: 4. What makes the NDPU secure?
-  description: The chip uses two forms of secuirty. First, the software layer randomly scrambles the data into a abstract binary string. Then, the hardware uses PUF to ensure the random scramble is post-quantum secure.
+  description: The chip uses two forms of security. First, the software layer randomly scrambles the data into an abstract string. Then, the hardware uses PUF to ensure the random scramble is post-quantum secure.
 - title: 5. What is unique about the NDPU?
-  description: Our floor layout of logic and memory is like islands of logic in a sea of memory. The logic is designed for fixed point geometric operations instead of floating point matrix multiplication ops. All information is compressed, binarized, and vectorized on chip.
+  description: Our floor layout of logic and memory is like islands of logic in a sea of memory. The logic is designed for fixed point geometric operations instead of floating point matrix multiplication ops of GPUs. All information is compressed, binarized, and vectorized on chip.
 - title: 6. Should I use an NDPU?
   description: Anyone who is processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power will love the NDPU.
+
 
 ####################################################################
 ######################## case ######################################
