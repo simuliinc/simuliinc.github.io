@@ -210,7 +210,7 @@ menus:
 ##########################################################################
 about:
   description: We've designed a new processor using advanced math and an innovative hardware layout. The NDPU processes more information per transistor by compressing information before processing. Our early and unoptimized prototype already shows promising results.
-  image: assets/img/about/about-3.jpg
+  image: assets/img/about/about-1.png
   subtitle: The Processor for Hyperscale Computing
   title: The NDPU
 
