@@ -540,7 +540,7 @@ faq:
 
 faq2:
   description: The NDPU uses a special combination of logic and memory on chip and combines that with an auto-vectorizing compiler to compress information before computing it. Our patented technology significantly reduces power and overall hardware costs.
-  image: assets/img/about/about-3.jpg
+  image: assets/img/about/about3.jpg
   subtitle: More on the NDPU
   title: NDPU Technical Details
 
