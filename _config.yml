@@ -216,7 +216,7 @@ about:
 
 about2:
   bg_image: assets/img/about/about-3.jpg
-  description: Our new chip is designed to process more information per transistor, reducing costs and power in cloud, databases, blockchain, and AI applications.
+  description: Our new PCIe chip is designed to process more information per transistor, reducing costs and power in cloud, databases, blockchain, and AI applications.
   list: <li> <i class="icofont-check-circled"></i> Less Power Consumption
     </li> <li> <i class="icofont-check-circled"></i> Faster Compute Throughput </li>
     <li> <i class="icofont-check-circled"></i> Post-quantum Secure </li>
