@@ -651,15 +651,15 @@ deployment:
 teams:
 - image: assets/img/team/1.png
   username: Rachel St.Clair, PhD
-  profession: CEO
+  profession: Co-Founder, CEO
   description: Leading thinker on the intersection of computing, math & neuroscience. 20+ Papers published, several citations. Leads Center for Future Mind
 - image: assets/img/team/2.png
   username: Ben Goertzel, PhD
   description: Expert on advanced computing. 450+ paper published & cited over 5k times. Created world's first robot citizen. Founder of SingularityNet and TrueAGI.
-  profession: Co-Founder
+  profession: Co-Founder, CRO
 - image: assets/img/team/3.png
   username: Binoy Syed
-  profession: COO
+  profession: Co-Founder, COO
   description: Semiconductor & ASIC Industry. Leader and experimental technologist with expertise in manufacturing, engineering, commercialization & alliances.
 
 mentors:
