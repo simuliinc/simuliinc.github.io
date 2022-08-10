@@ -347,7 +347,7 @@ hero1:
   title: Compute more, with less
   title_link: '/work/'
   title_text: Explore More <i class="icofont-long-arrow-right"></i>
-  video_link: #https://www.youtube.com/watch?v=ku6dEtynrRI
+  video_link: #https://youtu.be/0KXbjFnDNOM
   video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
 
 hero2:
@@ -358,7 +358,7 @@ hero2:
   title: Compute more, with less
   title_link: '/about/'
   title_text: Explore More <i class="icofont-long-arrow-right"></i>
-  video_link: https://youtube.com/watch?v=SmllS4oSKoI
+  video_link: https://youtu.be/0KXbjFnDNOM
   video_text: <i class="fas fa-play"></i> <span class="how-txt">The NDPU</span>
   right_img: /assets/img/logo/black-and-white-logo.png
 
