@@ -661,7 +661,24 @@ teams:
   username: Binoy Syed
   profession: Co-Founder, COO
   description: Semiconductor & ASIC Industry. Leader and experimental technologist with expertise in manufacturing, engineering, commercialization & alliances.
-
+- image: assets/img/team/1517700369609.jpg
+  username: Vijayvithal Jahagirdar
+  profession: Hardware Engineer Consultant
+  description: 2 decades designing complex communication chips and contributed to tapeout of dozens of chips. 
+  previous work with: LSI/Intel, Texas Instruments, CEERI Pilani, Inrom Systems. 
+  skillset: designing chips, IPs and sub-systems, writing, verifying, validating and synthesizing verilog and VHDL code, project planning, scheduling and costing, market and competition analysis, firmware and device driver development, and design automation. 
+- image: assets/img/team/stulova.png
+  username: Anastasia Stulova
+  profession: Compiler Expert Consultant
+  description: 10+ years of professional experience in compiler development and in leading innovations with primary focus on parallel compilation and acceleration using dedicated hardware e.g. GPUs.
+  previous work with: 9 years at ARM, Khronos Group, LLVM Compiler Project, Telemotive AG, RWTH Aachen University, ETH Zurich, 1C: Enterprise.
+  skillset: designing chips, IPs and sub-systems, writing, verifying, validating and synthesizing verilog and VHDL code, project planning, scheduling and costing, market and competition analysis, firmware and device driver development, and design automation. 
+- image: assets/img/team/peter.jpg
+  username: Peter Sutor
+  profession:  PhD student and Simuli contributor
+  description: 4th year PhD student studying at University of Maryland, College Park and Masters in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference.  
+  previous work with: US Army, Keystone Automotive, Penn State University. 
+ 
 mentors:
 - image: assets/img/team/4.png
   username: L. Andrew Coward
