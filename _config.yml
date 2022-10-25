@@ -672,8 +672,8 @@ teams:
   description: 10+ years of compiler development. Innovation leader primarily focused on parallel compilation and acceleration using dedicated hardware, e.g. GPUs. Worked for 9+ years at ARM, Khronos Group, ETH Zurich, etc.
 - image: assets/img/team/peter.jpg
   username: Peter Sutor
-  profession: 4th year PhD student (UMD, College Park) 
-  description: MSc in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference. Worked for the US Army, Keystone Automotive, Penn State University.   
+  profession: Researcher 
+  description: 4th year PhD student (UMD, College Park) & MSc in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference. Worked for the US Army, Keystone Automotive, Penn State University.   
 mentors:
 - image: assets/img/team/4.png
   username: L. Andrew Coward
