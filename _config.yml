@@ -661,7 +661,7 @@ teams:
   username: Binoy Syed
   profession: Co-Founder, COO
   description: Semiconductor & ASIC Industry. Leader and experimental technologist with expertise in manufacturing, engineering, commercialization & alliances.
-    
+engineers:    
 - image: assets/img/team/1517700369609.jpg
   username: Vijayvithal Jahagirdar
   profession: Hardware Engineer Consultant
@@ -672,7 +672,7 @@ teams:
   description: 10+ years of compiler development. Innovation leader primarily focused on parallel compilation and acceleration using dedicated hardware, e.g. GPUs. Worked for 9+ years at ARM, Khronos Group, ETH Zurich, etc.
 - image: assets/img/team/peter.jpg
   username: Peter Sutor
-  profession: Researcher 
+  profession: High-Dimensional Computing Expert 
   description: 4th year PhD student (UMD, College Park) & MSc in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference. Worked for the US Army, Keystone Automotive, Penn State University.   
 mentors:
 - image: assets/img/team/4.png
@@ -680,8 +680,4 @@ mentors:
   profession: Mentor
   description: Creator of the Recommendation Architecture. 30+ years at Nortel Networks in design of electronic control systems. 24 years in complex systems and neuroscience. 4 books, 100+ publications and lectures.
   web: http://www.landrewcoward.com/
-# - image: assets/img/team/5.png
-#   username: Susan Schneider, PhD
-#   profession: Mentor
-#   description: Prominent philosopher in AI and ethics, founding director of the new Center for the Future Mind, as the NASA chair, Schneider has recently completed a two year project with NASA on the future of intelligence.
-#   web: https://schneiderwebsite.com/index.html
+
