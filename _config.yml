@@ -661,7 +661,7 @@ teams:
   username: Binoy Syed
   profession: Co-Founder, COO
   description: Semiconductor & ASIC Industry. Leader and experimental technologist with expertise in manufacturing, engineering, commercialization & alliances.
-  
+  <br>
 - image: assets/img/team/1517700369609.jpg
   username: Vijayvithal Jahagirdar
   profession: Hardware Engineer Consultant
@@ -673,8 +673,7 @@ teams:
 - image: assets/img/team/peter.jpg
   username: Peter Sutor
   profession: 4th year PhD student (UMD, College Park) 
-  description: MSc in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference. Worked for the US Army, Keystone Automotive, Penn State University.  
- 
+  description: MSc in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference. Worked for the US Army, Keystone Automotive, Penn State University.   
 mentors:
 - image: assets/img/team/4.png
   username: L. Andrew Coward
