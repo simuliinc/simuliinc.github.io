@@ -21,6 +21,11 @@ image: ''
 {%- include sections/team.html -%}
 <!-- End Team -->
 
+<!-- Start Engineers
+		============================================= -->
+{%- include sections/engineers.html -%}
+<!-- End Team -->
+
 <!-- Start Mentor
 		============================================= -->
 {%- include sections/mentor.html -%}
