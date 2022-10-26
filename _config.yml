@@ -662,14 +662,14 @@ teams:
   profession: Co-Founder, COO
   description: Semiconductor & ASIC Industry. Leader and experimental technologist with expertise in manufacturing, engineering, commercialization & alliances.
 engineers:    
-# - image: assets/img/team/1517700369609.jpg
-#   username: Vijayvithal Jahagirdar
-#   profession: Hardware Engineer Consultant
-#   description: 2 decades designing complex communication chips and contributed to the tapeout of dozens of chips. Worked for LSI/Intel, Texas Instruments, CEERI Pilani, Inrom Systems. 
-# - image: assets/img/team/stulova.png
-#   username: Anastasia Stulova
-#   profession: Compiler Expert Consultant
-#   description: 10+ years of compiler development. Innovation leader primarily focused on parallel compilation and acceleration using dedicated hardware, e.g. GPUs. Worked for 9+ years at ARM, Khronos Group, ETH Zurich, etc.
+- image: assets/img/team/Vijay.jpg
+  username: Vijayvithal Jahagirdar
+  profession: Hardware Engineer Consultant
+  description: 2 decades designing complex communication chips and contributed to the tapeout of dozens of chips. Worked for LSI/Intel, Texas Instruments, CEERI Pilani, Inrom Systems. 
+- image: assets/img/team/stulova.png
+  username: Anastasia Stulova
+  profession: Compiler Expert Consultant
+  description: 10+ years of compiler development. Innovation leader primarily focused on parallel compilation and acceleration using dedicated hardware, e.g. GPUs. Worked for 9+ years at ARM, Khronos Group, ETH Zurich, etc.
 - image: assets/img/team/peter.jpg
   username: Peter Sutor
   profession: High-Dimensional Computing Expert 
