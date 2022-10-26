@@ -1,5 +1,5 @@
 ---
-title: AGI Fireside
+title: AGI '22 Fireside
 image: assets/img/singlepost/Teapot_2.png
 author: Rachel St.Clair
 categories: ["Interviews"]
