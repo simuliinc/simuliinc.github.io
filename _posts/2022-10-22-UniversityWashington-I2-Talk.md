@@ -1,6 +1,6 @@
 ---
 title: The RA Model 
-image: assets/img/singlepost/Cone_2.png
+image: assets/img/singlepost/Teapot_2.png
 author: Rachel St.Clair
 categories: ["Interviews"]
 comments: true
