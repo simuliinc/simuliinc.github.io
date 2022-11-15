@@ -669,7 +669,7 @@ engineers:
 - image: assets/img/team/stulova.png
   username: Anastasia Stulova
   profession: Compiler Expert Consultant
-  description: 10+ years of compiler development. Innovation leader primarily focused on parallel compilation and acceleration using dedicated hardware, e.g. GPUs. Worked for 9+ years at ARM, Khronos Group, ETH Zurich, etc.
+  description: 10+ years of compiler development. Innovation leader primarily focused on parallel compilation and acceleration using dedicated hardware and LLVM compiler project, e.g. GPUs. Worked for ARM, Khronos Group, ETH Zurich, etc.
 - image: assets/img/team/peter.jpg
   username: Peter Sutor
   profession: High-Dimensional Computing Expert 
