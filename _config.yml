@@ -671,6 +671,10 @@ engineers:
   profession: High-Dimensional Computing Expert 
   description: PhD UMD & MSc in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference. Worked for the US Army, Keystone Automotive, Penn State University.   
 mentors:
+- image : assets/img/team/YS.png
+  username: Youngsook Park
+  profession: Investor Relations
+  description: Renowned figure in AI blockchain tech and futures studies, bestselling author, National Defense Reform Advisory Special Committee and Future Strategy Committee, Director of Public Relations at the British and Australian embassies for 30 years
 - image: assets/img/team/4.png
   username: L. Andrew Coward
   profession: Current Mentor
