@@ -670,6 +670,10 @@ engineers:
   username: Peter Sutor
   profession: High-Dimensional Computing Expert 
   description: PhD UMD & MSc in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference. Worked for the US Army, Keystone Automotive, Penn State University.   
+- image: assets/img/team/ron.png
+  username: Ron Teitelbaum
+  profession: Software Expert
+  description: Accomplished tech veteran with expertise in 3D Collaboration Systems and Medical/Pharmacy Systems. Decades of experience in each field drives innovation delivering transformative solutions
 mentors:
 - image: assets/img/team/4.png
   username: L. Andrew Coward
