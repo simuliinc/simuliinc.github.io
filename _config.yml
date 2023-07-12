@@ -671,17 +671,13 @@ engineers:
   profession: High-Dimensional Computing Expert 
   description: PhD UMD & MSc in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference. Worked for the US Army, Keystone Automotive, Penn State University.   
 mentors:
-- image : assets/img/team/YS.jpg
-  username: Youngsook Park
-  profession: Strategic Relations
-  description: Renowned figure in AI blockchain tech and futures studies, bestselling author, National Defense Reform Advisory Special Committee and Future Strategy Committee, Director of Public Relations at the British and Australian embassies for 30 years
 - image: assets/img/team/4.png
   username: L. Andrew Coward
-  profession: Current Mentor
+  profession: Neuroscience
   description: Creator of the Recommendation Architecture. 30+ years at Nortel Networks in design of electronic control systems. 24 years in complex systems and neuroscience. 4 books, 100+ publications and lectures.
   web: http://www.landrewcoward.com/
-- image: assets/img/team/stulova.png
-  username: Anastasia Stulova
-  profession: Past Collaborator
-  description: 10+ years of compiler development. Innovation leader primarily focused on parallel compilation and acceleration using dedicated hardware and LLVM compiler project, e.g. GPUs. Worked for ARM, Khronos Group, ETH Zurich, etc.
+- image: assets/img/team/piotr.png
+  username: Piotr (Peter) Boltuc
+  profession: Digital Transformation
+  description: Leading thinker on digital transformation, focusing on customer-centric value proposition. Advocate for AGI-based second transformation. Prof. of Philosophy and Computer Science at UIS, and Management at SGH. Envisioning industry 4.5 with aligned tech and business paradigms. Focused on uncovering future horizons.
 
