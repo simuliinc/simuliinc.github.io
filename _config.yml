@@ -347,7 +347,7 @@ hero1:
   title: Compute more, with less
   title_link: '/work/'
   title_text: Explore More <i class="icofont-long-arrow-right"></i>
-  video_link: #https://youtu.be/0KXbjFnDNOM
+  video_link: https://www.youtube.com/embed/0KXbjFnDNOM # https://youtu.be/0KXbjFnDNOM
   video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
 
 hero2:
@@ -358,8 +358,8 @@ hero2:
   title: Compute more, with less
   title_link: '/about/'
   title_text: Explore More <i class="icofont-long-arrow-right"></i>
-  video_link: https://youtu.be/0KXbjFnDNOM
-  video_text: <i class="fas fa-play"></i> <span class="how-txt">The NDPU</span>
+  video_link: https://www.nebuli.simuli.ai/ #https://www.youtube.com/embed/0KXbjFnDNOM # https://youtu.be/0KXbjFnDNOM
+  video_text: <i class="fas fa-play"></i> <span class="how-txt">Try Our Compression</span>
   right_img: /assets/img/logo/black-and-white-logo.png
 
 ##########################################################################
