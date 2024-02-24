@@ -21,43 +21,20 @@ image: ''
 {%- include sections/about2.html -%}
 <!-- End About -->
 
+<!-- Start About
+		============================================= -->
+<!-- {%- include sections/about2.html -%} -->
+<!-- End About -->
+
 <!-- Start case-study
 		============================================= -->
 {%- include sections/case-study.html -%}
 <!-- End case-study -->
 
+{% comment %}
+	{%- include sections/feedback.html -%}
+{% endcomment %}
 
-<!-- Start Feedback
-		============================================= -->
-{%- include sections/feedback.html -%}
-<!-- End Feedback -->
-
-<!-- Start Faq
-		============================================= -->
-{%- include sections/faq2.html -%}
-<!-- End faq -->
-
-<!-- Start Case Study
-		============================================= -->
-<!-- {%- include sections/case.html -%} -->
-<!-- End Case Study -->
-
-<!-- Start Agency Success
-		============================================= -->
-<!-- {%- include sections/about.html -%} -->
-<!-- End Agency Success -->
-
-<!-- Start Blog
-		============================================= -->
-<!-- {%- include sections/blog.html -%} -->
-<!-- End Blog -->
-
-<!-- Start Promo
-		============================================= -->
 {%- include sections/promo.html -%}
-<!-- End Promo -->
 
-<!-- Start Promo
-		============================================= -->
 {%- include footer2.html -%}
-<!-- End Promo -->

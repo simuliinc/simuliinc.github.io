@@ -7,10 +7,6 @@ comments: true
 tags: [ Simuli, AGI, NDPU ]
 ---
 
+# Gene Swank Interviews Rachel St.Clair, Simuli CEO on Fox News Market Makers
 
-
-
-
-      Gene Swank Interviews Rachel St.Clair, Simuli CEO on Fox News Market Makers
-
-<iframe width="619" height="348" src="https://www.youtube.com/embed/1RrHlzci90I" title="Market Makers   Rachel St.Clair" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube-video.html url = "https://www.youtube-nocookie.com/embed/1RrHlzci90I?si=u-2IBOQG05W_It9Y" %}

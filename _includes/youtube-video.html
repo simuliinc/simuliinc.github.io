@@ -1,0 +1,17 @@
+<!-- Note: use a embed link not a regular link -->
+<!-- E.g., 
+    url = "https://www.youtube-nocookie.com/embed/R2d2T257gqE?si=nSsCuP-HYSzrFMLH
+-->
+<!-- From: https://stackoverflow.com/questions/35814653/automatic-height-when-embedding-a-youtube-video -->
+
+<div class="video-container"> <!-- the css here wraps the video -->
+    <iframe 
+        width="619" 
+        height="348" 
+        src="{{ include.url }}" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>
+<div>

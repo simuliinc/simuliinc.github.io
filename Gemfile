@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem 'jekyll-paginate'
   gem 'jekyll-archives'
+  gem 'jekyll-redirect-from'
   gem "kramdown-parser-gfm"
 end
 

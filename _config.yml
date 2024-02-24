@@ -99,6 +99,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-archives
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -147,7 +148,7 @@ naver_site_verification  : ''
 
 # Social Sharing
 twitter:
-  username               : ''
+  username               : 'simuliinc'
 facebook:
   username               : ''
   app_id                 : ''
@@ -175,22 +176,39 @@ menus:
     url: '/'
   - name: About
     url: '/about/'
-  - name: Pages
-    url: '#'
-    children:
-    - name: Services
-      url:  '/service/'
-    - name: 'Applications'
-      url: '/work/'
-    - name: 'Our Team'
-      url: '/team/'
-    # - name: '404'
-    #   url: '/404.html'
+  # - name: Pages
+  #   url: '#'
+  #   children:
+  #   - name: Services
+  #     url:  '/service/'
+  #   - name: 'Applications'
+  #     url: '/work/'
+  #   - name: 'Our Team'
+  #     url: '/team/'
+
+  # - name: Services
+  #   url:  '/service/'
+  
+  - name: Products
+    url: '/work/'
+  
+  - name: Our Team
+    url: '/team/'
+
   - name: Blog
     url: '/blog/'
-  - name: Contact
-    url: '/contact/'
 
+  # - name: Contact
+  #   url: '/contact/'
+
+  # - name: Pages 
+  #   children:
+  #   - name: Services
+  #     url:  '/service/'
+  #   - name: 'Applications'
+  #     url: '/work/'
+  #   - name: 'Our Team'
+  #     url: '/team/'
 
 ##########################################################################
 ######################## socials profile #################################
@@ -209,20 +227,20 @@ menus:
 ############################ about #######################################
 ##########################################################################
 about:
-  description: We've designed a new processor using advanced math and an innovative hardware layout. The NDPU processes more information per transistor by compressing information before processing. Our early and unoptimized prototype already shows promising results.
+  description: "Our holographic compression software allows direct computation without decompression. Computing in compressed form is more climate friendly AI, leading to 3x power reduction, massive reduction in memory requirements, and online processing prowess. By adding a middle layer between our new data structures and your AI, integration is easy without sacrificing accuracy. All while our new neuro-inspired learning algorithms leverage emerging hardware for fully autonomous, human understandable AI systems. Scalable big data AI arrives for everyday processors."
   image: assets/img/about/about-1.png
-  subtitle: The Processor for Hyperscale Computing
-  title: The NDPU
+  subtitle: We're reinventing how data lives and moves. # The Processor for Hyperscale Computing
+  title: # The NDPU
 
 about2:
   bg_image: assets/img/about/about-3.jpg
-  description: Our new PCIe chip is designed to process more information per transistor, reducing costs and power in cloud, databases, blockchain, and AI applications.
-  list: <li> <i class="icofont-check-circled"></i> Less Power Consumption
-    </li> <li> <i class="icofont-check-circled"></i> Faster Compute Throughput </li>
-    <li> <i class="icofont-check-circled"></i> Post-quantum Secure </li>
-  subtitle: NDPU Features
-  title: The Processor for Hyperscale Computing
-  work_link: '/about/'
+  description: "Our new compression software allows any data to be compressed into a holographic representation called a Nebu file. Any Nebu file can be decompressed to reconstruct the pre-compressed data 100% flawlessly."
+  list: <li> <i class="icofont-check-circled"></i> It analyzes complex data
+    </li> <li> <i class="icofont-check-circled"></i> It handles noisy information </li>
+    <li> <i class="icofont-check-circled"></i> It learns to make predictions and classifications </li>
+  subtitle: Nebuli Features # NDPU Features
+  title: Holographic Compression # The Processor for Hyperscale Computing
+  work_link: '/Nebuli-FAQs/'
   work_text: Learn More <i class="icofont-long-arrow-right"></i>
 
 ##########################################################################
@@ -339,27 +357,31 @@ blockchain:
 ##########################################################################
 ######################## hero ############################################
 ##########################################################################
-hero1:
-  intro: An advanced computing company
-  service_link: '/about/'
-  service_text: Explore More <i class="icofont-long-arrow-right"></i>
-  subtitle: Resource efficient hardware for scalable and intelligent computing
-  title: Compute more, with less
-  title_link: '/work/'
-  title_text: Explore More <i class="icofont-long-arrow-right"></i>
-  video_link: https://www.youtube.com/embed/0KXbjFnDNOM # https://youtu.be/0KXbjFnDNOM
-  video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
+# hero1:
+#   intro: An advanced computing company
+#   service_link: '/about/'
+#   service_text: Explore More <i class="icofont-long-arrow-right"></i>
+#   subtitle: Resource efficient hardware for scalable and intelligent computing
+#   title: Compute more, with less
+#   title_link: '/work/'
+#   title_text: Explore More <i class="icofont-long-arrow-right"></i>
+#   video_link: https://www.youtube.com/embed/0KXbjFnDNOM # https://youtu.be/0KXbjFnDNOM
+#   video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
 
 hero2:
-  intro: An advanced computing company
-  service_link: '/about/'
-  service_text: Explore More <i class="icofont-long-arrow-right"></i>
-  subtitle: Resource efficient hardware for scalable and intelligent computing
   title: Compute more, with less
-  title_link: '/about/'
   title_text: Explore More <i class="icofont-long-arrow-right"></i>
-  video_link: https://www.nebuli.simuli.ai/ #https://www.youtube.com/embed/0KXbjFnDNOM # https://youtu.be/0KXbjFnDNOM
-  video_text: <i class="fas fa-play"></i> <span class="how-txt">Try Our Compression</span>
+  title_link: '/about/'
+  
+  intro: Scalable AI
+  subtitle: # Resource efficient hardware for scalable and intelligent computing
+
+  service_text: Try Our Compression (Coming Soon) <i class="icofont-long-arrow-right"></i> # Explore More <i class="icofont-long-arrow-right"></i>
+  service_link: # https://www.nebuli.simuli.ai/auth/login # '/about/'
+
+  # video_link: https://www.nebuli.simuli.ai/ #https://www.youtube.com/embed/0KXbjFnDNOM # https://youtu.be/0KXbjFnDNOM
+  # video_text: <i class="fas fa-play"></i> <span class="how-txt">Try Our Compression</span>
+  
   right_img: /assets/img/logo/black-and-white-logo.png
 
 ##########################################################################
@@ -369,7 +391,7 @@ promo:
   contact_link: contact.html
   contact_text: Contact Us
   subtitle: Contact Us
-  title: Find out how our hardware solves your problem. Please Contact Us.
+  title: Find out how our AI solves your problem. Please Contact Us.
 
 ##########################################################################
 ######################## subscribe #######################################
@@ -393,17 +415,17 @@ whatwedo:
 ##########################################################################
 features:
 - image: assets/img/icons/man.png
-  type: Chip Designers
-  description: Working with expert neuroscientists, mathematicians, and AGI experts, we're here to innovate computer hardware.
-- image: assets/img/icons/checked.png
-  type: Hyperscale Computing
-  description: As data continues to grow, the tech industry is spending more in power and costs. We're radically improving scaling pipelines.
+  type: Compression 
+  description: Verifyably lossless and dta agnostic compression provides the core data structs needed for computing in compressed form.
 - image: assets/img/icons/rating.png
-  type: AGI
-  description: Artificial intelligence is quickly progressing to the next level -- AGI -- with our new hardware.
+  type: Neuro-inspired Learning Algorithms
+  description: Artificial intelligence is quickly progressing to the next level -- AGI -- with our new neur-inspired learning algorithms.
+- image: assets/img/icons/checked.png
+  type: Scalable AI
+  description: As data continues to grow, the AI industry is spending more in power and costs. We're radically improving scaling pipelines in existing AI.
 - image: assets/img/icons/consult.png
-  type: Full Stack Pipelines
-  description: Our processors are co-designed from software to hardware with use in mind to ensure a perfect fit into your existing pipelines.
+  type: Climate Friendly Hardware
+  description: Our autonomous systems are co-designed for emerging hardware eith human unstandability in mind.
 
 # features2:
 # - image: assets/img/icons/man.png
@@ -426,13 +448,13 @@ features:
 facts:
 - image: assets/img/icons/1.png
   counter: '3'
-  title: Power Reduction
+  title: "Power Reduction*"
 - image: assets/img/icons/2.png
   counter: '28'
-  title: Speed Increase
+  title: "Speed Increase*"
 - image: assets/img/icons/feedback.png
   counter: '178'
-  title: Memory Reduction
+  title: "Memory Reduction*"
 
 ##########################################################################
 ############################ wedo #######################################

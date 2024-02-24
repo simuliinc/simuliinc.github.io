@@ -22,13 +22,6 @@ image: false
 <!-- {%- include sections/feature3.html -%} -->
 <!-- End Feature -->
 
-<!-- Start Faq
-		============================================= -->
-{%- include sections/faq.html -%}
-<!-- End Faq -->
-
-
-
 <!-- Start Footer
 	============================================= -->
 {%- include footer.html -%}
