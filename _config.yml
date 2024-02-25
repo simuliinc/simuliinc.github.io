@@ -1,4 +1,3 @@
-
 ####################################
 ######     Global start     ######
 ####################################
@@ -7,7 +6,7 @@ title               : 'Simuli Inc.'
 email               : 'info@simuli.ai'
 address             : ''
 phone               : # 015610001234
-description         : An advanced computing company innovating low power, resource efficient, intelligent hardware for hyperscale computing and AGI. # >- means to ignore newlines until "baseurl:"
+description         : Reinvinting data for low power, resource efficient, scalable AI. # >- means to ignore newlines until "baseurl:"
 baseurl             : "" # the subpath of your site, e.g. /blog
 url                 : "https://www.simuli.ai/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 locale              : "en_US"
@@ -226,22 +225,24 @@ menus:
 ##########################################################################
 ############################ about #######################################
 ##########################################################################
+
 about:
   description: "Our holographic compression software allows direct computation without decompression. Computing in compressed form is more climate friendly AI, leading to 3x power reduction, massive reduction in memory requirements, and online processing prowess. By adding a middle layer between our new data structures and your AI, integration is easy without sacrificing accuracy. All while our new neuro-inspired learning algorithms leverage emerging hardware for fully autonomous, human understandable AI systems. Scalable big data AI arrives for everyday processors."
   image: assets/img/about/about-1.png
   subtitle: We're reinventing how data lives and moves. # The Processor for Hyperscale Computing
   title: # The NDPU
-
+  
 about2:
   bg_image: assets/img/about/about-3.jpg
   description: "Our new compression software allows any data to be compressed into a holographic representation called a Nebu file. Any Nebu file can be decompressed to reconstruct the pre-compressed data 100% flawlessly."
-  list: <li> <i class="icofont-check-circled"></i> It analyzes complex data
-    </li> <li> <i class="icofont-check-circled"></i> It handles noisy information </li>
-    <li> <i class="icofont-check-circled"></i> It learns to make predictions and classifications </li>
+  list: <li> <i class="icofont-check-circled"></i> Data agnostic
+    </li> <li> <i class="icofont-check-circled"></i> Verifiably lossless </li>
+    <li> <i class="icofont-check-circled"></i> Standardizes data for direct computation without decompression </li>
   subtitle: Nebuli Features # NDPU Features
   title: Holographic Compression # The Processor for Hyperscale Computing
   work_link: '/Nebuli-FAQs/'
   work_text: Learn More <i class="icofont-long-arrow-right"></i>
+
 
 ##########################################################################
 ############################ blog #######################################
@@ -373,7 +374,7 @@ hero2:
   title_text: Explore More <i class="icofont-long-arrow-right"></i>
   title_link: '/about/'
   
-  intro: Scalable AI
+  intro: Scaling AGI
   subtitle: # Resource efficient hardware for scalable and intelligent computing
 
   service_text: Try Our Compression (Coming Soon) <i class="icofont-long-arrow-right"></i> # Explore More <i class="icofont-long-arrow-right"></i>
@@ -391,7 +392,7 @@ promo:
   contact_link: contact.html
   contact_text: Contact Us
   subtitle: Contact Us
-  title: Find out how our AI solves your problem. Please Contact Us.
+  title: Find out how our AI solves your problem. Please contact us.
 
 ##########################################################################
 ######################## subscribe #######################################
@@ -408,24 +409,25 @@ whatwedo:
   contact_link: /contact/
   contact_text: Contact Us
   subtitle: What We Do
-  title: We Providing Scalable and Intelligent Hardware + Software stacks <br> To Our Clients.
+  title: We are scaling AI for big data analysis.
+
 
 ##########################################################################
 ######################## features #######################################
 ##########################################################################
 features:
 - image: assets/img/icons/man.png
-  type: Compression 
-  description: Verifyably lossless and dta agnostic compression provides the core data structs needed for computing in compressed form.
+  type: Compression
+  description: Verifiably lossless and data agnostic compression provides the core data structures needed for computing in compressed form.
 - image: assets/img/icons/rating.png
+  type: Scalable AI
+  description: As data continues to grow, the AI industry is spending more in power and costs. We're radically improving scaling pipelines in existing AI by computing in compressed form.
+- image: assets/img/icons/checked.png
   type: Neuro-inspired Learning Algorithms
   description: Artificial intelligence is quickly progressing to the next level -- AGI -- with our new neur-inspired learning algorithms.
-- image: assets/img/icons/checked.png
-  type: Scalable AI
-  description: As data continues to grow, the AI industry is spending more in power and costs. We're radically improving scaling pipelines in existing AI.
 - image: assets/img/icons/consult.png
   type: Climate Friendly Hardware
-  description: Our autonomous systems are co-designed for emerging hardware eith human unstandability in mind.
+  description: Our autonomous systems are co-designed for emerging hardware with human understability in mind.
 
 # features2:
 # - image: assets/img/icons/man.png
@@ -451,7 +453,7 @@ facts:
   title: "Power Reduction*"
 - image: assets/img/icons/2.png
   counter: '28'
-  title: "Speed Increase*"
+  title: "Throughput Increase*"
 - image: assets/img/icons/feedback.png
   counter: '178'
   title: "Memory Reduction*"
@@ -706,4 +708,3 @@ mentors:
   username: Piotr (Peter) Boltuc
   profession: Digital Transformation
   description: Leading thinker on digital transformation, focusing on customer-centric value proposition. Advocate for AGI-based second transformation. Prof. of Philosophy and Computer Science at UIS, and Management at SGH. Envisioning industry 4.5 with aligned tech and business paradigms. Focused on uncovering future horizons.
-
