@@ -562,39 +562,50 @@ faq:
   image: assets/img/faq/fag-bg.png
   title: NDPU Details
 
-faq2:
-  description: The NDPU uses a special combination of logic and memory on chip and combines that with an auto-vectorizing compiler to compress information before computing it. Our patented technology significantly reduces power and overall hardware costs.
-  image: assets/img/about/about3.jpg
-  subtitle: More on the NDPU
-  title: NDPU Technical Details
+# faq2:
+#   description: The NDPU uses a special combination of logic and memory on chip and combines that with an auto-vectorizing compiler to compress information before computing it. Our patented technology significantly reduces power and overall hardware costs.
+#   image: assets/img/about/about3.jpg
+#   subtitle: More on the NDPU
+#   title: NDPU Technical Details
 
-faqs:
-- title: 1. How does the NDPU reduce power consumption?
-  description: Information is automatically compressed into a holographic math state and then processed in the compressed form. This technique uses less memory which reduces power needed.
-- title: 2. How is the NDPU processing more info per transistor?
-  description: Since information is compressed before processed, each transistor can be running in parallel computing all of the info with less bits used to represent that info.
-- title: 3. Is the NDPU intelligent?
-  description: Our new chip uses a type of math that is contextual, this means that a new type of artificial intelligence can be supported without adding more and more GPUs as models scale.
-- title: 4. What makes the NDPU secure?
-  description: The chip uses two forms of security. First, the software layer randomly scrambles the data into an abstract string. Then, the hardware uses PUF to ensure the random scramble is post-quantum secure.
-- title: 5. What is unique about the NDPU?
-  description: Our floor layout of logic and memory is like islands of logic in a sea of memory. The logic is designed for fixed point geometric operations instead of floating point matrix multiplication ops of GPUs. All information is compressed, binarized, and vectorized on chip.
-- title: 6. Should I use an NDPU?
-  description: Anyone who is processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power will love the NDPU.
+faq2:
+  description: Nebuli uses a special type of abstract math to auto-vectorize information into a compressed holographic representation before computing it. Our patented technology significantly reduces power and overall hardware costs.
+  image: assets/img/about/about3.jpg
+  subtitle: More on Nebuli Compression
+  title: Nebuli Technical Details
+
+# faqs:
+# - title: 1. How does the NDPU reduce power consumption?
+#   description: Information is automatically compressed into a holographic math state and then processed in the compressed form. This technique uses less memory which reduces power needed.
+# - title: 2. How is the NDPU processing more info per transistor?
+#   description: Since information is compressed before processed, each transistor can be running in parallel computing all of the info with less bits used to represent that info.
+# - title: 3. Is the NDPU intelligent?
+#   description: Our new chip uses a type of math that is contextual, this means that a new type of artificial intelligence can be supported without adding more and more GPUs as models scale.
+# - title: 4. What makes the NDPU secure?
+#   description: The chip uses two forms of security. First, the software layer randomly scrambles the data into an abstract string. Then, the hardware uses PUF to ensure the random scramble is post-quantum secure.
+# - title: 5. What is unique about the NDPU?
+#   description: Our floor layout of logic and memory is like islands of logic in a sea of memory. The logic is designed for fixed point geometric operations instead of floating point matrix multiplication ops of GPUs. All information is compressed, binarized, and vectorized on chip.
+# - title: 6. Should I use an NDPU?
+#   description: Anyone who is processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power will love the NDPU.
 
 faqs2:
-- title: 1. How does the NDPU reduce power consumption?
-  description: Information is automatically compressed into a holographic math state and then processed in the compressed form. This technique uses less memory which reduces power needed.
-- title: 2. How is the NDPU processing more info per transistor?
-  description: Since information is compressed before processed, each transistor can be running in parallel computing all of the info with less bits used to represent that info.
-- title: 3. Is the NDPU intelligent?
-  description: Our new chip uses a type of math that is contextual, this means that a new type of artificial intelligence can be supported without adding more and more GPUs as models scale.
-- title: 4. What makes the NDPU secure?
-  description: The chip uses two forms of security. First, the software layer randomly scrambles the data into an abstract string. Then, the hardware uses PUF to ensure the random scramble is post-quantum secure.
-- title: 5. What is unique about the NDPU?
-  description: Our floor layout of logic and memory is like islands of logic in a sea of memory. The logic is designed for fixed point geometric operations instead of floating point matrix multiplication ops of GPUs. All information is compressed, binarized, and vectorized on chip.
-- title: 6. Should I use an NDPU?
-  description: Anyone who is processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power will love the NDPU.
+- title: 1. How does Nebuli resize files?
+  description: Any data type is automatically compressed into a holographic math state and stored in as a Nebu file type. This technique uses significantly less memory. When the data is decmopressed, a reconstruction process is called on the Nebu file converting it back to the original file data with all the original data. 
+
+- title: 2. Is it a lossy or lossless compressor?
+  description: Nebuli is verifyably lossless compression. This means the contents of your reconstructed data is exactly as it was before you compressed it.
+
+- title: 3. What are Nebuli's security protocols?
+  description: Nebui file types use two forms of security. First, the compression layer randomly scrambles the data into an abstract string. Then, the a second layer of RSA futher encryptes the file to ensure added protection.
+
+- title: 4. Who should use Nebuli compression?
+  description: Anyone who is storing data and wants to store more of it securely. The most benefited users are those processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power (see 'Why').
+
+- title: 5. Why use Nebuli?
+  description: Since information is compressed in our special Nebu form, our AI API can be used to directly process the compressed data. Since you're computing on compressed data... you end up computing all of the info with less bits used to represent that info. The expected result is massive power and memory consuption decrease.
+
+- title: 6. Does Nebuli have a 'Pro' version?
+  description: Please contact us for custom tailored versions of Nebuli. Our fine-tuned Nebuli Pro versions are built to handle your specific data storing and processing needs. 
 
 
 ####################################################################
@@ -686,10 +697,10 @@ teams:
   profession: Co-Founder, COO
   description: Semiconductor & ASIC Industry. Leader and experimental technologist with expertise in manufacturing, engineering, commercialization & alliances.
 engineers:    
-- image: assets/img/team/Vijay.jpg
-  username: Vijayvithal Jahagirdar
-  profession: Hardware Engineer Consultant
-  description: 2 decades designing complex communication chips and contributed to the tapeout of dozens of chips. Worked for LSI/Intel, Texas Instruments, CEERI Pilani, Inrom Systems. 
+- image: assets/img/team/Victor.jpg
+  username: Victor Cavero
+  profession: Embedded Systems Engineer
+  description: Specializes in optimizing performance through low-level/bare metal techniques and hardware resources across diverse digital environments and hardware systems.
 - image: assets/img/team/peter.jpg
   username: Peter Sutor
   profession: High-Dimensional Computing Expert 
