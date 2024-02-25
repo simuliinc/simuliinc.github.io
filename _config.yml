@@ -1,3 +1,4 @@
+
 ####################################
 ######     Global start     ######
 ####################################
@@ -6,7 +7,7 @@ title               : 'Simuli Inc.'
 email               : 'info@simuli.ai'
 address             : ''
 phone               : # 015610001234
-description         : Reinvinting data for low power, resource efficient, scalable AI. # >- means to ignore newlines until "baseurl:"
+description         : An advanced computing company innovating low power, resource efficient, intelligent hardware for hyperscale computing and AGI. # >- means to ignore newlines until "baseurl:"
 baseurl             : "" # the subpath of your site, e.g. /blog
 url                 : "https://www.simuli.ai/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 locale              : "en_US"
@@ -225,24 +226,22 @@ menus:
 ##########################################################################
 ############################ about #######################################
 ##########################################################################
-
 about:
   description: "Our holographic compression software allows direct computation without decompression. Computing in compressed form is more climate friendly AI, leading to 3x power reduction, massive reduction in memory requirements, and online processing prowess. By adding a middle layer between our new data structures and your AI, integration is easy without sacrificing accuracy. All while our new neuro-inspired learning algorithms leverage emerging hardware for fully autonomous, human understandable AI systems. Scalable big data AI arrives for everyday processors."
   image: assets/img/about/about-1.png
   subtitle: We're reinventing how data lives and moves. # The Processor for Hyperscale Computing
   title: # The NDPU
-  
+
 about2:
   bg_image: assets/img/about/about-3.jpg
   description: "Our new compression software allows any data to be compressed into a holographic representation called a Nebu file. Any Nebu file can be decompressed to reconstruct the pre-compressed data 100% flawlessly."
-  list: <li> <i class="icofont-check-circled"></i> Data agnostic
-    </li> <li> <i class="icofont-check-circled"></i> Verifiably lossless </li>
-    <li> <i class="icofont-check-circled"></i> Standardizes data for direct computation without decompression </li>
+  list: <li> <i class="icofont-check-circled"></i> It analyzes complex data
+    </li> <li> <i class="icofont-check-circled"></i> It handles noisy information </li>
+    <li> <i class="icofont-check-circled"></i> It learns to make predictions and classifications </li>
   subtitle: Nebuli Features # NDPU Features
   title: Holographic Compression # The Processor for Hyperscale Computing
   work_link: '/Nebuli-FAQs/'
   work_text: Learn More <i class="icofont-long-arrow-right"></i>
-
 
 ##########################################################################
 ############################ blog #######################################
@@ -374,7 +373,7 @@ hero2:
   title_text: Explore More <i class="icofont-long-arrow-right"></i>
   title_link: '/about/'
   
-  intro: Scaling AGI
+  intro: Scalable AI
   subtitle: # Resource efficient hardware for scalable and intelligent computing
 
   service_text: Try Our Compression (Coming Soon) <i class="icofont-long-arrow-right"></i> # Explore More <i class="icofont-long-arrow-right"></i>
@@ -392,7 +391,7 @@ promo:
   contact_link: contact.html
   contact_text: Contact Us
   subtitle: Contact Us
-  title: Find out how our AI solves your problem. Please contact us.
+  title: Find out how our AI solves your problem. Please Contact Us.
 
 ##########################################################################
 ######################## subscribe #######################################
@@ -409,25 +408,24 @@ whatwedo:
   contact_link: /contact/
   contact_text: Contact Us
   subtitle: What We Do
-  title: We are scaling AI for big data analysis.
-
+  title: We Providing Scalable and Intelligent Hardware + Software stacks <br> To Our Clients.
 
 ##########################################################################
 ######################## features #######################################
 ##########################################################################
 features:
 - image: assets/img/icons/man.png
-  type: Compression
-  description: Verifiably lossless and data agnostic compression provides the core data structures needed for computing in compressed form.
+  type: Compression 
+  description: Verifyably lossless and dta agnostic compression provides the core data structs needed for computing in compressed form.
 - image: assets/img/icons/rating.png
-  type: Scalable AI
-  description: As data continues to grow, the AI industry is spending more in power and costs. We're radically improving scaling pipelines in existing AI with our binding API to compute in compressed form.
+  type: Neuro-inspired Learning Algorithms
+  description: Artificial intelligence is quickly progressing to the next level -- AGI -- with our new neur-inspired learning algorithms.
 - image: assets/img/icons/checked.png
-  type: Neuro-Inspired Learning Algorithms
-  description: Artificial intelligence is quickly progressing to the next level -- AGI -- with our new neuro-inspired learning algorithms.
+  type: Scalable AI
+  description: As data continues to grow, the AI industry is spending more in power and costs. We're radically improving scaling pipelines in existing AI.
 - image: assets/img/icons/consult.png
-  type: Climate-Friendly Autonomous 
-  description: Our fully autonomous system, ReArc, is co-designed for emerging hardware with our planet in mind. 
+  type: Climate Friendly Hardware
+  description: Our autonomous systems are co-designed for emerging hardware eith human unstandability in mind.
 
 # features2:
 # - image: assets/img/icons/man.png
@@ -453,7 +451,7 @@ facts:
   title: "Power Reduction*"
 - image: assets/img/icons/2.png
   counter: '28'
-  title: "Throughput Increase*"
+  title: "Speed Increase*"
 - image: assets/img/icons/feedback.png
   counter: '178'
   title: "Memory Reduction*"
@@ -516,23 +514,23 @@ feature_service:
   subtitle: 'Applications'
 
 feature_services:
-  - name: Data
+  - name: Cloud Services
     image: '/assets/img/work/cloud.png'
-    title: Data Centers
+    title: Cloud Services
     service_text: dsfds
-    service_link: '/database/'
+    service_link: '/cloud/'
 
   - name: Artificial Intelligence
     image: '/assets/img/work/brain.jpg'
     title: Artificial Intelligence
     service_text: Explore Service
-    service_link: '/rearc/'
+    service_link: '/work/'
 
-  - name: Self-Driving
-    image: 'assets/img/work/car2.jpg'
-    title: Full Self-Driving
+  - name: Blockchain Technologies
+    image: '/assets/img/work/block.png'
+    title: Blockchain Tech
     service_text: Explore Service
-    service_link: '/selfdriving/'
+    service_link: '/blockchain/'
 
 ####################################################################
 ######################## feedbacks #################################
@@ -562,50 +560,39 @@ faq:
   image: assets/img/faq/fag-bg.png
   title: NDPU Details
 
-# faq2:
-#   description: The NDPU uses a special combination of logic and memory on chip and combines that with an auto-vectorizing compiler to compress information before computing it. Our patented technology significantly reduces power and overall hardware costs.
-#   image: assets/img/about/about3.jpg
-#   subtitle: More on the NDPU
-#   title: NDPU Technical Details
-
 faq2:
-  description: Nebuli uses a special type of abstract math to auto-vectorize information into a compressed holographic representation. While the compression technique alone rivals ZIP and 7lib, it has an added benefit that the Nebu files can be combined with our layer two API for direct computation on the compressed files. This patented technology standardizes data for later AI analysis -- significantly reduces overall compute cost, power, and need for hardware.
+  description: The NDPU uses a special combination of logic and memory on chip and combines that with an auto-vectorizing compiler to compress information before computing it. Our patented technology significantly reduces power and overall hardware costs.
   image: assets/img/about/about3.jpg
-  subtitle: More on Nebuli Compression
-  title: Nebuli Technical Details
+  subtitle: More on the NDPU
+  title: NDPU Technical Details
 
-# faqs:
-# - title: 1. How does the NDPU reduce power consumption?
-#   description: Information is automatically compressed into a holographic math state and then processed in the compressed form. This technique uses less memory which reduces power needed.
-# - title: 2. How is the NDPU processing more info per transistor?
-#   description: Since information is compressed before processed, each transistor can be running in parallel computing all of the info with less bits used to represent that info.
-# - title: 3. Is the NDPU intelligent?
-#   description: Our new chip uses a type of math that is contextual, this means that a new type of artificial intelligence can be supported without adding more and more GPUs as models scale.
-# - title: 4. What makes the NDPU secure?
-#   description: The chip uses two forms of security. First, the software layer randomly scrambles the data into an abstract string. Then, the hardware uses PUF to ensure the random scramble is post-quantum secure.
-# - title: 5. What is unique about the NDPU?
-#   description: Our floor layout of logic and memory is like islands of logic in a sea of memory. The logic is designed for fixed point geometric operations instead of floating point matrix multiplication ops of GPUs. All information is compressed, binarized, and vectorized on chip.
-# - title: 6. Should I use an NDPU?
-#   description: Anyone who is processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power will love the NDPU.
+faqs:
+- title: 1. How does the NDPU reduce power consumption?
+  description: Information is automatically compressed into a holographic math state and then processed in the compressed form. This technique uses less memory which reduces power needed.
+- title: 2. How is the NDPU processing more info per transistor?
+  description: Since information is compressed before processed, each transistor can be running in parallel computing all of the info with less bits used to represent that info.
+- title: 3. Is the NDPU intelligent?
+  description: Our new chip uses a type of math that is contextual, this means that a new type of artificial intelligence can be supported without adding more and more GPUs as models scale.
+- title: 4. What makes the NDPU secure?
+  description: The chip uses two forms of security. First, the software layer randomly scrambles the data into an abstract string. Then, the hardware uses PUF to ensure the random scramble is post-quantum secure.
+- title: 5. What is unique about the NDPU?
+  description: Our floor layout of logic and memory is like islands of logic in a sea of memory. The logic is designed for fixed point geometric operations instead of floating point matrix multiplication ops of GPUs. All information is compressed, binarized, and vectorized on chip.
+- title: 6. Should I use an NDPU?
+  description: Anyone who is processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power will love the NDPU.
 
 faqs2:
-- title: 1. How does Nebuli resize files?
-  description: Any data type is automatically compressed into a holographic math state and stored as a Nebu file type. This technique uses significantly less memory then the original data format. In most cases, Nebuli outperforms ZIP and 7lib. When the data is decompressed, a reconstruction process is called on the Nebu file converting it back to the original file type with all the original data.
-
-- title: 2. Is it a lossy or lossless compressor?
-  description: Nebuli is verifiably lossless compression. This means the contents of your reconstructed data is exactly as it was before you compressed it.
-
-- title: 3. What are Nebuli's security protocols?
-  description: Nebui file types use two forms of security. First, the compression layer randomly scrambles the data into an abstract string. Then, a second layer of RSA further encrypts the file to ensure added protection.
-
-- title: 4. Who should use Nebuli compression?
-  description: Anyone who is storing data and wants to store more of it securely. The most benefited users are those processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power (see 'Why').
-
-- title: 5. Why use Nebuli?
-  description: Since information is compressed in our special Nebu form, our AI API can be used to directly process the compressed data. Since you're computing on compressed data... you end up computing all of the info with less bits used to represent that info. The expected result is massive power and memory consumption decrease.
-
-- title: 6. Does Nebuli have a 'Pro' version?
-  description: Please contact us for custom tailored versions of Nebuli. Our fine-tuned Nebuli Pro versions are built to handle your specific data storing and processing needs.
+- title: 1. How does the NDPU reduce power consumption?
+  description: Information is automatically compressed into a holographic math state and then processed in the compressed form. This technique uses less memory which reduces power needed.
+- title: 2. How is the NDPU processing more info per transistor?
+  description: Since information is compressed before processed, each transistor can be running in parallel computing all of the info with less bits used to represent that info.
+- title: 3. Is the NDPU intelligent?
+  description: Our new chip uses a type of math that is contextual, this means that a new type of artificial intelligence can be supported without adding more and more GPUs as models scale.
+- title: 4. What makes the NDPU secure?
+  description: The chip uses two forms of security. First, the software layer randomly scrambles the data into an abstract string. Then, the hardware uses PUF to ensure the random scramble is post-quantum secure.
+- title: 5. What is unique about the NDPU?
+  description: Our floor layout of logic and memory is like islands of logic in a sea of memory. The logic is designed for fixed point geometric operations instead of floating point matrix multiplication ops of GPUs. All information is compressed, binarized, and vectorized on chip.
+- title: 6. Should I use an NDPU?
+  description: Anyone who is processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power will love the NDPU.
 
 
 ####################################################################
@@ -688,38 +675,35 @@ teams:
   username: Rachel St.Clair, PhD
   profession: Co-Founder, CEO
   description: Leading thinker on the intersection of computing, math & neuroscience. 20+ Papers published, several citations. Center for Future Mind Fellow.
-- image: assets/img/team/3.png
-  username: Binoy Syed
-  profession: Co-Founder, COO
-  description: Semiconductor & ASIC Industry. Leader and experimental technologist with expertise in manufacturing, engineering, commercialization & alliances.
-engineers: 
-- image: assets/img/team/peter.jpg
-  username: Peter Sutor
-  profession: High-Dimensional Computing Expert 
-  description: PhD UMD & MSc in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference. Worked for the US Army, Keystone Automotive, Penn State University.      
-- image: assets/img/team/Victor.jpg
-  username: Victor Cavero
-  profession: Embedded Systems Engineer
-  description: Specializes in optimizing performance through low-level/bare metal techniques and hardware resources across diverse digital environments and hardware systems.
-- image: assets/img/team/Pablo.jpg
-  username: Pablo Zizzutti
-  profession: Embedded Systems Engineer
-  description: Software expert, enthusiast, analyst and problem solver, likes challenging projects.
-- image: assets/img/team/ron.png
-  username: Ron Teitelbaum
-  profession: Software Expert
-  description: Accomplished tech veteran with expertise in 3D Collaboration Systems and Medical/Pharmacy Systems. Decades of experience in each field drives innovation delivering transformative solutions
-- image: assets/img/team/piotr.jpg
-  username: Piotr (Peter) Boltuc
-  profession: Head of R&D Governance and Communications
-  description: Leading thinker on digital transformation, focusing on customer-centric value proposition. Advocate for AGI-based second transformation. Prof. of Philosophy and Computer Science at UIS, and Management at SGH. Envisioning industry 4.5 with aligned tech and business paradigms. Focused on uncovering future horizons.
-mentors:
-- image: assets/img/team/4.png
-  username: L. Andrew Coward
-  profession: Neuro-Inspired Advisor
-  description: Creator of the Recommendation Architecture. 30+ years at Nortel Networks in design of electronic control systems. 24 years in complex systems and neuroscience. 4 books, 100+ publications and lectures.
-  web: http://www.landrewcoward.com/
 - image: assets/img/team/2.png
   username: Ben Goertzel, PhD
   description: Expert on advanced computing. 450+ paper published & cited over 5k times. Created world's first robot citizen. Founder of SingularityNet and TrueAGI.
   profession: Co-Founder, CRO
+- image: assets/img/team/3.png
+  username: Binoy Syed
+  profession: Co-Founder, COO
+  description: Semiconductor & ASIC Industry. Leader and experimental technologist with expertise in manufacturing, engineering, commercialization & alliances.
+engineers:    
+- image: assets/img/team/Vijay.jpg
+  username: Vijayvithal Jahagirdar
+  profession: Hardware Engineer Consultant
+  description: 2 decades designing complex communication chips and contributed to the tapeout of dozens of chips. Worked for LSI/Intel, Texas Instruments, CEERI Pilani, Inrom Systems. 
+- image: assets/img/team/peter.jpg
+  username: Peter Sutor
+  profession: High-Dimensional Computing Expert 
+  description: PhD UMD & MSc in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference. Worked for the US Army, Keystone Automotive, Penn State University.   
+- image: assets/img/team/ron.png
+  username: Ron Teitelbaum
+  profession: Software Expert
+  description: Accomplished tech veteran with expertise in 3D Collaboration Systems and Medical/Pharmacy Systems. Decades of experience in each field drives innovation delivering transformative solutions
+mentors:
+- image: assets/img/team/4.png
+  username: L. Andrew Coward
+  profession: Neuroscience
+  description: Creator of the Recommendation Architecture. 30+ years at Nortel Networks in design of electronic control systems. 24 years in complex systems and neuroscience. 4 books, 100+ publications and lectures.
+  web: http://www.landrewcoward.com/
+- image: assets/img/team/piotr.jpg
+  username: Piotr (Peter) Boltuc
+  profession: Digital Transformation
+  description: Leading thinker on digital transformation, focusing on customer-centric value proposition. Advocate for AGI-based second transformation. Prof. of Philosophy and Computer Science at UIS, and Management at SGH. Envisioning industry 4.5 with aligned tech and business paradigms. Focused on uncovering future horizons.
+
