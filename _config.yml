@@ -7,7 +7,7 @@ title               : 'Simuli Inc.'
 email               : 'info@simuli.ai'
 address             : ''
 phone               : # 015610001234
-description         : An advanced computing company innovating low power, resource efficient, intelligent hardware for hyperscale computing and AGI. # >- means to ignore newlines until "baseurl:"
+description         : 'Reinvinting data for low power, resource efficient, scalable AI'. # >- means to ignore newlines until "baseurl:"
 baseurl             : "" # the subpath of your site, e.g. /blog
 url                 : "https://www.simuli.ai/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 locale              : "en_US"
