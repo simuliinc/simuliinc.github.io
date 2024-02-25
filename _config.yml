@@ -421,13 +421,13 @@ features:
   description: Verifiably lossless and data agnostic compression provides the core data structures needed for computing in compressed form.
 - image: assets/img/icons/rating.png
   type: Scalable AI
-  description: As data continues to grow, the AI industry is spending more in power and costs. We're radically improving scaling pipelines in existing AI by computing in compressed form.
+  description: As data continues to grow, the AI industry is spending more in power and costs. We're radically improving scaling pipelines in existing AI with our binding API to compute in compressed form.
 - image: assets/img/icons/checked.png
-  type: Neuro-inspired Learning Algorithms
-  description: Artificial intelligence is quickly progressing to the next level -- AGI -- with our new neur-inspired learning algorithms.
+  type: Neuro-Inspired Learning Algorithms
+  description: Artificial intelligence is quickly progressing to the next level -- AGI -- with our new neuro-inspired learning algorithms.
 - image: assets/img/icons/consult.png
-  type: Climate Friendly Hardware
-  description: Our autonomous systems are co-designed for emerging hardware with human understability in mind.
+  type: Climate-Friendly Autonomous 
+  description: Our fully autonomous system, ReArc, is co-designed for emerging hardware with our planet in mind. 
 
 # features2:
 # - image: assets/img/icons/man.png
@@ -516,9 +516,9 @@ feature_service:
   subtitle: 'Applications'
 
 feature_services:
-  - name: Cloud Services
+  - name: Data
     image: '/assets/img/work/cloud.png'
-    title: Cloud Services
+    title: Data Centers
     service_text: dsfds
     service_link: '/cloud/'
 
