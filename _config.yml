@@ -569,7 +569,7 @@ faq:
 #   title: NDPU Technical Details
 
 faq2:
-  description: Nebuli uses a special type of abstract math to auto-vectorize information into a compressed holographic representation before computing it. Our patented technology significantly reduces power and overall hardware costs.
+  description: Nebuli uses a special type of abstract math to auto-vectorize information into a compressed holographic representation before computing it. Our patented technology Standardizes data for later compute in compressed form processing -- significantly reduces overall hardware costs.
   image: assets/img/about/about3.jpg
   subtitle: More on Nebuli Compression
   title: Nebuli Technical Details
