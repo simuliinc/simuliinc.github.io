@@ -232,13 +232,13 @@ about:
   image: assets/img/about/about-1.png
   subtitle: We're reinventing how data lives and moves. # The Processor for Hyperscale Computing
   title: # The NDPU
-
+  
 about2:
   bg_image: assets/img/about/about-3.jpg
   description: "Our new compression software allows any data to be compressed into a holographic representation called a Nebu file. Any Nebu file can be decompressed to reconstruct the pre-compressed data 100% flawlessly."
-  list: <li> <i class="icofont-check-circled"></i> Analyzes any data, no matter how complex
-	</li> <li> <i class="icofont-check-circled"></i> Decompressed data is verifiably lossless </li>
-	<li> <i class="icofont-check-circled"></i> Standardizes information for future multi-modal analysis </li>
+  list: <li> <i class="icofont-check-circled"></i> Data agnostic
+    </li> <li> <i class="icofont-check-circled"></i> Verifiably lossless </li>
+    <li> <i class="icofont-check-circled"></i> Standardizes data for direct computation without decompression </li>
   subtitle: Nebuli Features # NDPU Features
   title: Holographic Compression # The Processor for Hyperscale Computing
   work_link: '/Nebuli-FAQs/'
