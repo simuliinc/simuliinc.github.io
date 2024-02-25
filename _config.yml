@@ -569,7 +569,7 @@ faq:
 #   title: NDPU Technical Details
 
 faq2:
-  description: Nebuli uses a special type of abstract math to auto-vectorize information into a compressed holographic representation before computing it. Our patented technology Standardizes data for later compute in compressed form processing -- significantly reduces overall hardware costs.
+  description: Nebuli uses a special type of abstract math to auto-vectorize information into a compressed holographic representation. While the compression technique alone rivals ZIP and 7lib, it has an added benefit that the Nebu files can be combined with our layer two API for direct computation on the compressed files. This patented technology standardizes data for later AI analysis -- significantly reduces overall compute cost, power, and need for hardware.
   image: assets/img/about/about3.jpg
   subtitle: More on Nebuli Compression
   title: Nebuli Technical Details
@@ -590,22 +590,22 @@ faq2:
 
 faqs2:
 - title: 1. How does Nebuli resize files?
-  description: Any data type is automatically compressed into a holographic math state and stored in as a Nebu file type. This technique uses significantly less memory. When the data is decmopressed, a reconstruction process is called on the Nebu file converting it back to the original file data with all the original data. 
+  description: Any data type is automatically compressed into a holographic math state and stored as a Nebu file type. This technique uses significantly less memory then the original data format. In most cases, Nebuli outperforms ZIP and 7lib. When the data is decompressed, a reconstruction process is called on the Nebu file converting it back to the original file type with all the original data.
 
 - title: 2. Is it a lossy or lossless compressor?
-  description: Nebuli is verifyably lossless compression. This means the contents of your reconstructed data is exactly as it was before you compressed it.
+  description: Nebuli is verifiably lossless compression. This means the contents of your reconstructed data is exactly as it was before you compressed it.
 
 - title: 3. What are Nebuli's security protocols?
-  description: Nebui file types use two forms of security. First, the compression layer randomly scrambles the data into an abstract string. Then, the a second layer of RSA futher encryptes the file to ensure added protection.
+  description: Nebui file types use two forms of security. First, the compression layer randomly scrambles the data into an abstract string. Then, a second layer of RSA further encrypts the file to ensure added protection.
 
 - title: 4. Who should use Nebuli compression?
   description: Anyone who is storing data and wants to store more of it securely. The most benefited users are those processing lots and lots of data and wants to do so without constantly adding more hardware and increasing power (see 'Why').
 
 - title: 5. Why use Nebuli?
-  description: Since information is compressed in our special Nebu form, our AI API can be used to directly process the compressed data. Since you're computing on compressed data... you end up computing all of the info with less bits used to represent that info. The expected result is massive power and memory consuption decrease.
+  description: Since information is compressed in our special Nebu form, our AI API can be used to directly process the compressed data. Since you're computing on compressed data... you end up computing all of the info with less bits used to represent that info. The expected result is massive power and memory consumption decrease.
 
 - title: 6. Does Nebuli have a 'Pro' version?
-  description: Please contact us for custom tailored versions of Nebuli. Our fine-tuned Nebuli Pro versions are built to handle your specific data storing and processing needs. 
+  description: Please contact us for custom tailored versions of Nebuli. Our fine-tuned Nebuli Pro versions are built to handle your specific data storing and processing needs.
 
 
 ####################################################################
