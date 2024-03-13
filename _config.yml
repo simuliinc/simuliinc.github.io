@@ -714,6 +714,11 @@ engineers:
   profession: Head of R&D Governance and Communications
   description: Leading thinker on digital transformation, focusing on customer-centric value proposition. Advocate for AGI-based second transformation. Prof. of Philosophy and Computer Science at UIS, and Management at SGH. Envisioning industry 4.5 with aligned tech and business paradigms. Focused on uncovering future horizons.
 mentors:
+- image: assets/img/team/asad.jpg
+  username: Asad Sultan
+  profession: Lead Investment Advisor 
+  description: 30 yrs in equities and capital markets. Exec roles: Citibank, Daiwa, Macquarie Bank, Cantor Fitzgerald. Co-founded ventures: Malaysia (solar, renewable energy), Hollywood (media, entertainment, incl: cross-border film fund). Ventures studio: early stage investments in sunrise technologies.
+  web: https://verdana.io/
 - image: assets/img/team/4.png
   username: L. Andrew Coward
   profession: Neuro-Inspired Advisor
