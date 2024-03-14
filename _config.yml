@@ -709,6 +709,10 @@ engineers:
   username: Ron Teitelbaum
   profession: Software Expert
   description: Accomplished tech veteran with expertise in 3D Collaboration Systems and Medical/Pharmacy Systems. Decades of experience in each field drives innovation delivering transformative solutions
+- image: assets/img/team/garrett.png
+  username: Garrett Mindt
+  profession: Head of AI-Human Alignment
+  description: 10+ years in philosophy of metaphysics and ontology, fellow at Tiny Blue Dot & Center for future Mind, leading thinking on AI ethics/safety and conscioussness
 - image: assets/img/team/piotr.jpg
   username: Piotr (Peter) Boltuc
   profession: Head of R&D Governance and Communications
