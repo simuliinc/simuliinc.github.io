@@ -1,21 +1,19 @@
 <div class="team-area de-padding">
 	<div class="container">
 		<div class="team-wpr grid-4">
-			{%- for team in site.engineers -%}
-			<div class="team-box wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
-				<div class="team-pic">
-					<img src="{{ team.image | relative_url }}" alt="thumb">
-					<!-- <ul class="team-social">
-						<li><a href="{{team.web |default: '#'}}"><i class="fab fa-instagram"></i></a></li>
-					</ul> -->
+			{% for entry in site.engineers %}
+				{% assign person = site.people | where: "username",  entry | first %}
+				<div class="team-box wow fadeInUp">
+					<div class="team-pic">
+						<img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+					</div>
+					<div class="team-desc">
+						<h5 class="fz-20-5">{{ person.name }}</h5>
+						<span>{{ person.title }}</span>
+					</div>
+					<span>{{ person.bio }}</span>
 				</div>
-				<div class="team-desc">
-					<h5 class="fz-20-5">{{ team.username }}</h5>
-					<span>{{ team.profession }}</span>
-				</div>
-				<span>{{ team.description }}</span>
-			</div>
-			{%- endfor -%}
+			{% endfor %}
 		</div>
 	</div>
 </div>

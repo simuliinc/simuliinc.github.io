@@ -16,23 +16,19 @@ image: ''
 {%- include breadcrumb.html -%}
 <!-- End  Breadcrumb -->
 
-<!-- Start Team
-		============================================= -->
-{%- include sections/team.html -%}
-<!-- End Team -->
+<!-- Start Leadership ============================================= -->
+{%- include sections/leaders.html -%}
+<!-- End Leadership -->
 
-<!-- Start Engineers
-		============================================= -->
+<!-- Start Engineers============================================= -->
 {%- include sections/engineers.html -%}
 <!-- End Team -->
 
-<!-- Start Mentor
-		============================================= -->
+<!-- Start Mentor============================================= -->
 {%- include sections/mentor.html -%}
 <!-- End Team -->
 
-<!-- Start Subscribe
-		============================================= -->
+<!-- Start Subscribe============================================= -->
 <!-- {%- include sections/subscribe.html -%} -->
 <!-- End Subscribe -->
 

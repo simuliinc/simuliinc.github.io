@@ -3,8 +3,7 @@
 		<div class="team-wpr grid-4">
 			{% for entry in site.leaders %}
 				{% assign person = site.people | where: "username",  entry | first %}
-				<div class="team-box wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-					<!-- {% if person.leader %} -->
+				<div class="team-box wow fadeInUp">
 					<div class="team-pic">
 						<img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
 					</div>

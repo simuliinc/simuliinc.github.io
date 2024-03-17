@@ -55,6 +55,9 @@ collections:
   pages:
     output: true
     permalink: /:collection/:slug/
+  # Added the possibility of having a page for every person 
+  people:
+    output: false
 
 # Defaults
 defaults:
@@ -678,57 +681,77 @@ deployment:
   service_text: Contact Us
   service_link: '/contact/'
 
-
-
 ####################################################################
 ######################## Team ######################################
 ####################################################################
-teams:
-- image: assets/img/team/1.png
-  username: Rachel St.Clair, PhD
-  profession: Co-Founder, CEO
-  description: Leading thinker on the intersection of computing, math & neuroscience. 20+ Papers published, several citations. Center for Future Mind Fellow.
-- image: assets/img/team/3.png
-  username: Binoy Syed
-  profession: Co-Founder, COO
-  description: Semiconductor & ASIC Industry. Leader and experimental technologist with expertise in manufacturing, engineering, commercialization & alliances.
-engineers: 
-- image: assets/img/team/peter.jpg
-  username: Peter Sutor
-  profession: High-Dimensional Computing Expert 
-  description: PhD UMD & MSc in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference. Worked for the US Army, Keystone Automotive, Penn State University.      
-- image: assets/img/team/Victor.jpg
-  username: Victor Cavero
-  profession: Embedded Systems Engineer
-  description: Specializes in optimizing performance through low-level/bare metal techniques and hardware resources across diverse digital environments and hardware systems.
-- image: assets/img/team/Pablo.jpg
-  username: Pablo Zizzutti
-  profession: Embedded Systems Engineer
-  description: Software expert, enthusiast, analyst and problem solver, likes challenging projects.
-- image: assets/img/team/ron.png
-  username: Ron Teitelbaum
-  profession: Software Expert
-  description: Accomplished tech veteran with expertise in 3D Collaboration Systems and Medical/Pharmacy Systems. Decades of experience in each field drives innovation delivering transformative solutions
-- image: assets/img/team/garrett.jpg
-  username: Garrett Mindt
-  profession: Head of Human-AI Alignment
-  description: 10+ years in Philosophy of Mind, AI, and Science, Program Director at Center for the Future Mind, former fellow at Tiny Blue Dot Foundation for Consciousness, leading thinker on AI ethics/safety and consciousness.
-- image: assets/img/team/piotr.jpg
-  username: Piotr (Peter) Boltuc
-  profession: Head of R&D Governance and Communications
-  description: Leading thinker on digital transformation, focusing on customer-centric value proposition. Advocate for AGI-based second transformation. Prof. of Philosophy and Computer Science at UIS, and Management at SGH. Envisioning industry 4.5 with aligned tech and business paradigms. Focused on uncovering future horizons.
+# Team has moved from this location in _config.yml to _people
+# each person has their own file sorted by their name
+    # People Files are located in "_people" directory 
+    # The abbreviations First-Last are referring to the file name
+    # "First-Last.md" in "_people" folder
+# (We are doing a manual list because the team is small and to set 
+# the desired order in one for-loop)
+leaders:
+  - Rachel-St-Clair
+  - Binoy-Syed
+engineers:
+  - Peter-Sutor
+  - Victor-Cavero
+  - Pablo-Zizzutti
+  - Ron-Teitelbaum
+  - Garrett-Mindt
+  - Piotr-Boltuc
 mentors:
-- image: assets/img/team/asad.png
-  username: Asad Sultan
-  profession: Lead Investment Advisor 
-  description: 30 yrs in equities and capital markets. Exec roles: Citibank, Daiwa, Macquarie Bank, Cantor Fitzgerald. Co-founded ventures: Malaysia (solar, renewable energy), Hollywood (media, entertainment, incl: cross-border film fund). Ventures studio: early stage investments in sunrise technologies.
-  web: https://verdana.io/
-- image: assets/img/team/4.png
-  username: L. Andrew Coward
-  profession: Neuro-Inspired Advisor
-  description: Creator of the Recommendation Architecture. 30+ years at Nortel Networks in design of electronic control systems. 24 years in complex systems and neuroscience. 4 books, 100+ publications and lectures.
-  web: http://www.landrewcoward.com/
-- image: assets/img/team/2.png
-  username: Ben Goertzel, PhD
-  description: Expert on advanced computing. 450+ paper published & cited over 5k times. Created world's first robot citizen. Founder of SingularityNet and TrueAGI.
-  profession: AGI Advisor
+  - Asad-Sultan
+  - L-Andrew-Coward
+  - Ben-Goertzel
+
+# temp:
+# - image: assets/img/team/1.png
+#   username: Rachel St.Clair, PhD
+#   profession: Co-Founder, CEO
+#   description: Leading thinker on the intersection of computing, math & neuroscience. 20+ Papers published, several citations. Center for Future Mind Fellow.
+# - image: assets/img/team/3.png
+#   username: Binoy Syed
+#   profession: Co-Founder, COO
+#   description: Semiconductor & ASIC Industry. Leader and experimental technologist with expertise in manufacturing, engineering, commercialization & alliances.
+# engineers: 
+# - image: assets/img/team/peter.jpg
+#   username: Peter Sutor
+#   profession: High-Dimensional Computing Expert 
+#   description: PhD UMD & MSc in Computer Science. 14+ publications in high-dimensional computing, IEE chair of HDC conference. Worked for the US Army, Keystone Automotive, Penn State University.      
+# - image: assets/img/team/Victor.jpg
+#   username: Victor Cavero
+#   profession: Embedded Systems Engineer
+#   description: Specializes in optimizing performance through low-level/bare metal techniques and hardware resources across diverse digital environments and hardware systems.
+# - image: assets/img/team/Pablo.jpg
+#   username: Pablo Zizzutti
+#   profession: Embedded Systems Engineer
+#   description: Software expert, enthusiast, analyst and problem solver, likes challenging projects.
+# - image: assets/img/team/ron.png
+#   username: Ron Teitelbaum
+#   profession: Software Expert
+#   description: Accomplished tech veteran with expertise in 3D Collaboration Systems and Medical/Pharmacy Systems. Decades of experience in each field drives innovation delivering transformative solutions
+# - image: assets/img/team/garrett.jpg
+#   username: Garrett Mindt
+#   profession: Head of Human-AI Alignment
+#   description: 10+ years in Philosophy of Mind, AI, and Science, Program Director at Center for the Future Mind, former fellow at Tiny Blue Dot Foundation for Consciousness, leading thinker on AI ethics/safety and consciousness.
+# - image: assets/img/team/piotr.jpg
+#   username: Piotr (Peter) Boltuc
+#   profession: Head of R&D Governance and Communications
+#   description: Leading thinker on digital transformation, focusing on customer-centric value proposition. Advocate for AGI-based second transformation. Prof. of Philosophy and Computer Science at UIS, and Management at SGH. Envisioning industry 4.5 with aligned tech and business paradigms. Focused on uncovering future horizons.
+# mentors:
+# - image: assets/img/team/asad.png
+#   username: Asad Sultan
+#   profession: Lead Investment Advisor 
+#   description: "30 yrs in equities and capital markets. Exec roles: Citibank, Daiwa, Macquarie Bank, Cantor Fitzgerald. Co-founded ventures: Malaysia (solar, renewable energy), Hollywood (media, entertainment, incl: cross-border film fund). Ventures studio: early stage investments in sunrise technologies."
+#   web: https://verdana.io/
+# - image: assets/img/team/4.png
+#   username: L. Andrew Coward
+#   profession: Neuro-Inspired Advisor
+#   description: Creator of the Recommendation Architecture. 30+ years at Nortel Networks in design of electronic control systems. 24 years in complex systems and neuroscience. 4 books, 100+ publications and lectures.
+#   web: http://www.landrewcoward.com/
+# - image: assets/img/team/2.png
+#   username: Ben Goertzel, PhD
+#   description: Expert on advanced computing. 450+ paper published & cited over 5k times. Created world's first robot citizen. Founder of SingularityNet and TrueAGI.
+#   profession: AGI Advisor
