@@ -17,9 +17,10 @@ image: false
 {%- include sections/about.html -%}
 <!-- End About -->
 
-<!-- Start Feature
-		============================================= -->
-<!-- {%- include sections/feature3.html -%} -->
+<!-- Start Feature============================================= -->
+{% comment %}
+<!-- {%- include sections/feature2.html -%} -->
+{% endcomment %}
 <!-- End Feature -->
 
 <!-- Start Footer

@@ -705,3 +705,47 @@ mentors:
   - Asad-Sultan
   - L-Andrew-Coward
   - Ben-Goertzel
+
+####################################################################
+######################## business logos ############################
+####################################################################
+business_logos_title :
+  title: ' Innovating on Multiple Fronts'
+  subtitle: 'Applications'
+
+business_logos:
+  - name: Data
+    image: '/assets/img/work/cloud.png'
+    title: Data Centers
+    service_text: dsfds
+    service_link: '/database/'
+
+  - name: Artificial Intelligence
+    image: '/assets/img/work/brain.jpg'
+    title: Artificial Intelligence
+    service_text: Explore Service
+    service_link: '/rearc/'
+
+  - name: Self-Driving
+    image: 'assets/img/work/car2.jpg'
+    title: Full Self-Driving
+    service_text: Explore Service
+    service_link: '/selfdriving/'
+
+  - name: Alpha
+    image: '/assets/img/work/cloud.png'
+    title: Alpha
+    service_text: dsfds
+    service_link: '/database/'
+
+  - name: Beta
+    image: '/assets/img/work/brain.jpg'
+    title: Beta
+    service_text: Explore Service
+    service_link: '/rearc/'
+
+  - name: Gamma
+    image: 'assets/img/work/car2.jpg'
+    title: Gamma
+    service_text: Explore Service
+    service_link: '/selfdriving/'
