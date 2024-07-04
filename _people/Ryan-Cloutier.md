@@ -2,7 +2,7 @@
 name:       Ryan Cloutier
 username:   Ryan-Cloutier
 title:      Lead Cybersecurity Advisor
-image:      assets/img/team/ryan.png
+image:      assets/img/team/ryan.jpg
 bio:        "Virtual Chief Information Security Officer for organizations across the country and is
 Certified Information Systems Security Professional CISSP®, cloud security, Dev-Ops,
 and Sec-Ops methodologies, security policy, process, audit, compliance, network security, and
