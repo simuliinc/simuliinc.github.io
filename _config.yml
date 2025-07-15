@@ -554,7 +554,7 @@ feedbacks:
 - image: assets/img/review/binoy.png
   description: "Tech infrastructure has reached an inflection point with data sizes and complexity exponentially exploding, costs are exploding too. It's just not scalable to use existing architectures to keep going, something new and transformative is needed, like the NDPU."
   author: Binoy Syed
-  status: COO
+  status: Supporter
 
 ####################################################################
 ######################## faq ######################################
@@ -693,7 +693,6 @@ deployment:
 # the desired order in one for-loop)
 leaders:
   - Rachel-St-Clair
-  - Binoy-Syed
 engineers:
   - Peter-Sutor
   - Victor-Cavero
