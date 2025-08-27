@@ -1,0 +1,9 @@
+---
+name:     Iain Wentworth
+username: Iain-Wentworth
+title:    Project Manager 
+image:    assets/img/team/iain.jpg
+bio:      "Project operations and delivery specialist with experience in AI, Web3, and humanoid robotics, supporting cross-functional teams with execution, systems design, and strategic coordination."
+# Additional Info (Teams): [leader, engineer, advisor, mentor]
+engineer:   true
+---
