@@ -1,5 +1,5 @@
 ---
-name:       Renato Faraone
+name:       Renato Faraone, PhD
 username:   Renato-Faraone
 title:      Mathematical Modeler
 image:      assets/img/team/rem.jpg
