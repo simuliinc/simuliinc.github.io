@@ -1,1 +1,9 @@
-
+---
+name:     George Bakalov
+username: George-Bakalov
+title:    Chief Information Security Officer
+image:    assets/img/team/george.jpg
+bio:      "Infomration Security Professional."
+# Additional Info (Teams): [leader, engineer, advisor, mentor]
+engineer:   true
+---
