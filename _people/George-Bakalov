@@ -3,7 +3,7 @@ name:     George Bakalov
 username: George-Bakalov
 title:    vCISO
 image:    assets/img/team/george.jpg
-bio:      "Information Security Professional."
+bio:      "Information security expert in security architecture, incident management, and compliance."
 # Additional Info (Teams): [leader, engineer, advisor, mentor]
 engineer:   true
 ---
