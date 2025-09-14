@@ -1,9 +1,9 @@
 ---
 name:     Chris Dowell
 username: Chris-Dowell
-title:    CPO 
+title:    fCPO 
 image:    assets/img/team/chris.jpg
-bio:      "Physicist, unicorn-scale Product Executive."
+bio:      "Unicorn-scale Product executive and physicist."
 # Additional Info (Teams): [leader, engineer, advisor, mentor]
 advisor:   true
 ---
