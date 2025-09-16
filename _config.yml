@@ -380,8 +380,8 @@ hero2:
   intro: We save everyone money on Al, by re-writing how algorithms read data. And, we're in BETA with customers.
   subtitle: # Resource efficient hardware for scalable and intelligent computing
 
-  # service_text: Try Our Compression (Coming Soon) <i class="icofont-long-arrow-right"></i> # Explore More <i class="icofont-long-arrow-right"></i>
-  # service_link: # https://www.nebuli.simuli.ai/auth/login # '/about/'
+  service_text: Try Our Compression (Coming Soon) <i class="icofont-long-arrow-right"></i> # Explore More <i class="icofont-long-arrow-right"></i>
+  service_link: # https://www.nebuli.simuli.ai/auth/login # '/about/'
 
   # video_link: https://www.nebuli.simuli.ai/ #https://www.youtube.com/embed/0KXbjFnDNOM # https://youtu.be/0KXbjFnDNOM
   # video_text: <i class="fas fa-play"></i> <span class="how-txt">Try Our Compression</span>
