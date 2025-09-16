@@ -582,7 +582,7 @@ faq2:
   description: Nebuli uses a special type of abstract math to auto-vectorize information into a compressed holographic representation. While the compression technique alone rivals ZIP and 7lib, it has an added benefit that the Nebu files can be combined with our layer two API for direct computation on the compressed files. This patented technology standardizes data for later AI analysis -- significantly reduces overall compute cost, power, and need for hardware.
   image: assets/img/about/about3.jpg
   subtitle: More on Nebuli Compression
-  title: Nebuli Technical Details
+  title: Simuli Technical Details
 
 # faqs:
 # - title: 1. How does the NDPU reduce power consumption?
