@@ -197,6 +197,9 @@ menus:
   - name: Our Team
     url: '/team/'
 
+      - name: Simuli FAQs
+    url: '/Simuli-FAQs/'
+
   # - name: Blog
   #  url: '/blog/'
 
