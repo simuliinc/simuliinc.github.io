@@ -389,7 +389,7 @@ hero2:
   subtitle: # Resource efficient hardware for scalable and intelligent computing
 
   service_text: About Us <i class="icofont-long-arrow-right"></i> # Explore More <i class="icofont-long-arrow-right"></i>
-  service_link: https://www..simuli.ai/about/
+  service_link: https://www.simuli.ai/about/
 
   # video_link: https://www.nebuli.simuli.ai/ #https://www.youtube.com/embed/0KXbjFnDNOM # https://youtu.be/0KXbjFnDNOM
   # video_text: <i class="fas fa-play"></i> <span class="how-txt">Try Our Compression</span>
