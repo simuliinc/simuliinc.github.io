@@ -373,7 +373,11 @@ blockchain:
 #   video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
 
 hero2:
-  title: Compute more, with less
+  title: Universal Al pre-processing with Universal Al efficiency in training, inference, and deployment
+  title_text: Explore More <i class="icofont-long-arrow-right"></i>
+  title_link: '/about/'
+
+  title: Universal Al pre-processing with Universal Al efficiency in training, inference, and deployment 2
   title_text: Explore More <i class="icofont-long-arrow-right"></i>
   title_link: '/about/'
   
