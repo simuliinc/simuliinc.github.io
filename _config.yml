@@ -373,11 +373,15 @@ blockchain:
 #   video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
 
 hero2:
-  title: Universal Al pre-processing with Universal Al efficiency in training, inference, and deployment
+  title: Universal Al pre-processing with universal Al efficiency in training, inference, and deployment.
   title_text: Explore More <i class="icofont-long-arrow-right"></i>
   title_link: '/about/'
 
-  title: Universal Al pre-processing with Universal Al efficiency in training, inference, and deployment 2
+  title2: Bringing simplicity and elegance to Al - a universal stack.
+  title_text: Explore More <i class="icofont-long-arrow-right"></i>
+  title_link: '/about/'
+
+  title3: One stack for the entire Al lifecycle. Seamless training, inference, and deployment at a fraction of the prep and compute.
   title_text: Explore More <i class="icofont-long-arrow-right"></i>
   title_link: '/about/'
   
