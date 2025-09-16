@@ -197,8 +197,8 @@ menus:
   - name: Our Team
     url: '/team/'
 
-  - name: Blog
-    url: '/blog/'
+  # - name: Blog
+  #  url: '/blog/'
 
   # - name: Contact
   #   url: '/contact/'
