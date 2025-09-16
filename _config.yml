@@ -191,7 +191,7 @@ menus:
   # - name: Services
   #   url:  '/service/'
   
-  - name: Products
+  - name: Applications
     url: '/work/'
   
   - name: Our Team
