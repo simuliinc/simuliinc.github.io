@@ -237,12 +237,12 @@ about:
   
 about2:
   bg_image: assets/img/about/about-3.jpg
-  description: "Our new compression software allows any data to be compressed into a holographic representation called a Nebu file. Any Nebu file can be decompressed to reconstruct the pre-compressed data 100% flawlessly."
-  list: <li> <i class="icofont-check-circled"></i> Data agnostic
-    </li> <li> <i class="icofont-check-circled"></i> Verifiably lossless </li>
-    <li> <i class="icofont-check-circled"></i> Standardizes data for direct computation without decompression </li>
-  subtitle: Nebuli Features # NDPU Features
-  title: Holographic Compression # The Processor for Hyperscale Computing
+  description: "Standardize your data estate and run training, fine-tuning, and inference on a unified substrate; with no preprocessing, and at a fraction of the cost."
+  list: <li> <i class="icofont-check-circled"></i> Verifiably Lossless Compression
+    </li> <li> <i class="icofont-check-circled"></i> Noise and Tamper Tolerant </li>
+    <li> <i class="icofont-check-circled"></i> Secured End-to-End </li>
+  subtitle: Al Data
+  title: One DataType for All Alg
   work_link: '/Nebuli-FAQs/'
   work_text: Learn More <i class="icofont-long-arrow-right"></i>
 
