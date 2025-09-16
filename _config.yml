@@ -197,7 +197,7 @@ menus:
   - name: Our Team
     url: '/team/'
 
-      - name: Simuli FAQs
+  - name: Simuli FAQs
     url: '/Simuli-FAQs/'
 
   # - name: Blog
@@ -246,7 +246,7 @@ about2:
     <li> <i class="icofont-check-circled"></i> Secured End-to-End </li>
   subtitle: Al Data
   title: One Data Type for all Al
-  work_link: '/Nebuli-FAQs/'
+  work_link: '/Simuli-FAQs/'
   work_text: Learn More <i class="icofont-long-arrow-right"></i>
 
 
