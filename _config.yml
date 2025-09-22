@@ -191,17 +191,14 @@ menus:
   # - name: Services
   #   url:  '/service/'
   
-  - name: Applications
+  - name: Products
     url: '/work/'
   
   - name: Our Team
     url: '/team/'
 
-  - name: Simuli FAQs
-    url: '/Simuli-FAQs/'
-
-  # - name: Blog
-  #  url: '/blog/'
+  - name: Blog
+    url: '/blog/'
 
   # - name: Contact
   #   url: '/contact/'
@@ -240,13 +237,13 @@ about:
   
 about2:
   bg_image: assets/img/about/about-3.jpg
-  description: "Standardize your data estate and run training, fine-tuning, and inference on a unified substrate; with no preprocessing, and at a fraction of the cost."
-  list: <li> <i class="icofont-check-circled"></i> Verifiably Lossless Compression
-    </li> <li> <i class="icofont-check-circled"></i> Noise and Tamper Tolerant </li>
-    <li> <i class="icofont-check-circled"></i> Secured End-to-End </li>
-  subtitle: Al Data
-  title: One Data Type for all Al
-  work_link: '/Simuli-FAQs/'
+  description: "Our new compression software allows any data to be compressed into a holographic representation called a Nebu file. Any Nebu file can be decompressed to reconstruct the pre-compressed data 100% flawlessly."
+  list: <li> <i class="icofont-check-circled"></i> Data agnostic
+    </li> <li> <i class="icofont-check-circled"></i> Verifiably lossless </li>
+    <li> <i class="icofont-check-circled"></i> Standardizes data for direct computation without decompression </li>
+  subtitle: Nebuli Features # NDPU Features
+  title: Holographic Compression # The Processor for Hyperscale Computing
+  work_link: '/Nebuli-FAQs/'
   work_text: Learn More <i class="icofont-long-arrow-right"></i>
 
 
@@ -376,19 +373,15 @@ blockchain:
 #   video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
 
 hero2:
-  title: One stack for the entire Al lifecycle. Seamless training, inference, and deployment at a fraction of the prep and compute.
-  title_text: Explore More <i class="icofont-long-arrow-right"></i>
-  title_link: '/about/'
-
-  title2: Bringing simplicity and elegance to Al - a universal stack.
+  title: Compute more, with less
   title_text: Explore More <i class="icofont-long-arrow-right"></i>
   title_link: '/about/'
   
-  intro: We save everyone money on Al, by re-writing how algorithms read data. And, we're in BETA with customers.
+  intro: Scaling AGI
   subtitle: # Resource efficient hardware for scalable and intelligent computing
 
-  service_text: About Us <i class="icofont-long-arrow-right"></i> # Explore More <i class="icofont-long-arrow-right"></i>
-  service_link: https://www.simuli.ai/about/
+  service_text: Try Our Compression (Coming Soon) <i class="icofont-long-arrow-right"></i> # Explore More <i class="icofont-long-arrow-right"></i>
+  service_link: # https://www.nebuli.simuli.ai/auth/login # '/about/'
 
   # video_link: https://www.nebuli.simuli.ai/ #https://www.youtube.com/embed/0KXbjFnDNOM # https://youtu.be/0KXbjFnDNOM
   # video_text: <i class="fas fa-play"></i> <span class="how-txt">Try Our Compression</span>
@@ -402,7 +395,7 @@ promo:
   contact_link: contact
   contact_text: Contact Us
   subtitle: Contact Us
-  title: Find out how we solve your AI problems.
+  title: Find out how our AI solves your problem. Please contact us.
 
 ##########################################################################
 ######################## subscribe #######################################
@@ -427,17 +420,17 @@ whatwedo:
 ##########################################################################
 features:
 - image: assets/img/icons/man.png
-  type: A Universal Datatype
-  description: Noise-Tolerant. Space-Efficient. Secure End-to-End.
-- image: assets/img/icons/man.png
-  type: A Transparent Wrapper
-  description: Any Model. Zero Retraining. No Write-offs.
-- image: assets/img/icons/man.png
-  type: A Smarter Package
-  description: No Data Prep. Seamless Processing.
-- image: assets/img/icons/man.png
-  type: A Cost-Saving 
-  description: 3x Cut in Power & Compute Cost. Edge-Ready. 
+  type: Compression
+  description: Verifiably lossless and data agnostic compression provides the core data structures needed for computing in compressed form.
+- image: assets/img/icons/rating.png
+  type: Scalable AI
+  description: As data continues to grow, the AI industry is spending more in power and costs. We're radically improving scaling pipelines in existing AI with our binding API to compute in compressed form.
+- image: assets/img/icons/checked.png
+  type: Neuro-Inspired Learning Algorithms
+  description: Artificial intelligence is quickly progressing to the next level -- AGI -- with our new neuro-inspired learning algorithms.
+- image: assets/img/icons/consult.png
+  type: Climate-Friendly Autonomous 
+  description: Our fully autonomous system, ReArc, is co-designed for emerging hardware with our planet in mind. 
 
 # features2:
 # - image: assets/img/icons/man.png
@@ -582,7 +575,7 @@ faq2:
   description: Nebuli uses a special type of abstract math to auto-vectorize information into a compressed holographic representation. While the compression technique alone rivals ZIP and 7lib, it has an added benefit that the Nebu files can be combined with our layer two API for direct computation on the compressed files. This patented technology standardizes data for later AI analysis -- significantly reduces overall compute cost, power, and need for hardware.
   image: assets/img/about/about3.jpg
   subtitle: More on Nebuli Compression
-  title: Simuli Technical Details
+  title: Nebuli Technical Details
 
 # faqs:
 # - title: 1. How does the NDPU reduce power consumption?
